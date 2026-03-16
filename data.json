@@ -1,0 +1,1846 @@
+{
+    "settings": {
+        "products": {
+            "cheers": {
+                "name": "Cheers",
+                "sell_price": 3000,
+                "stock": 28,
+                "avg_cost": 1541.67,
+                "price_history": [
+                    {
+                        "effective_date": "2000-01-01",
+                        "price": 3000,
+                        "previous_price": null,
+                        "recorded_at": "2000-01-01 00:00:00",
+                        "note": "Harga awal sistem"
+                    }
+                ]
+            },
+            "floridina": {
+                "name": "Floridina",
+                "sell_price": 5000,
+                "stock": 9,
+                "avg_cost": 2443.75,
+                "price_history": [
+                    {
+                        "effective_date": "2000-01-01",
+                        "price": 5000,
+                        "previous_price": null,
+                        "recorded_at": "2000-01-01 00:00:00",
+                        "note": "Harga awal sistem"
+                    }
+                ]
+            },
+            "teh_pucuk": {
+                "name": "Teh Pucuk",
+                "sell_price": 5000,
+                "stock": 21,
+                "avg_cost": 2833.33,
+                "price_history": [
+                    {
+                        "effective_date": "2000-01-01",
+                        "price": 5000,
+                        "previous_price": null,
+                        "recorded_at": "2000-01-01 00:00:00",
+                        "note": "Harga awal sistem"
+                    }
+                ]
+            },
+            "kopi_abc": {
+                "name": "Kopi ABC",
+                "sell_price": 5000,
+                "stock": 0,
+                "avg_cost": 3083.33,
+                "price_history": [
+                    {
+                        "effective_date": "2000-01-01",
+                        "price": 5000,
+                        "previous_price": null,
+                        "recorded_at": "2000-01-01 00:00:00",
+                        "note": "Harga awal sistem"
+                    }
+                ]
+            },
+            "ultra_milk": {
+                "name": "Ultra Milk",
+                "sell_price": 8000,
+                "stock": 38,
+                "avg_cost": 5166.98,
+                "price_history": [
+                    {
+                        "effective_date": "2000-01-01",
+                        "price": 8000,
+                        "previous_price": null,
+                        "recorded_at": "2000-01-01 00:00:00",
+                        "note": "Harga awal sistem"
+                    }
+                ]
+            }
+        },
+        "archived_products": [],
+        "ingredients": {
+            "cup_8oz": {
+                "name": "Cup 8oz",
+                "unit": "pcs",
+                "stock": 93,
+                "avg_cost": 375.54
+            },
+            "sendok_kayu": {
+                "name": "Sendok Kayu",
+                "unit": "pcs",
+                "stock": 93,
+                "avg_cost": 312.61
+            },
+            "migelas_renceng": {
+                "name": "MiGelas Renceng",
+                "unit": "pcs",
+                "stock": 8,
+                "avg_cost": 1390
+            },
+            "good_day_chococinno": {
+                "name": "Good Day Chococinno",
+                "unit": "pcs",
+                "stock": 10,
+                "avg_cost": 2050
+            },
+            "susu_milo": {
+                "name": "Susu Milo",
+                "unit": "pcs",
+                "stock": 9,
+                "avg_cost": 2650
+            },
+            "good_day_cappuccino": {
+                "name": "Good Day Cappuccino",
+                "unit": "pcs",
+                "stock": 10,
+                "avg_cost": 2850
+            },
+            "energen": {
+                "name": "Energen",
+                "unit": "pcs",
+                "stock": 5,
+                "avg_cost": 2790
+            }
+        },
+        "archived_ingredients": [],
+        "mixed_menus": {
+            "set_gelas_migelas": {
+                "name": "Set Gelas (MiGelas)",
+                "sell_price": 5000,
+                "price_history": [
+                    {
+                        "effective_date": "2026-03-15",
+                        "price": 5000,
+                        "previous_price": null,
+                        "recorded_at": "2026-03-15 00:00:00",
+                        "note": "Menu racikan ditambahkan"
+                    }
+                ],
+                "recipe": [
+                    {
+                        "ingredient_key": "migelas_renceng",
+                        "qty": 2
+                    },
+                    {
+                        "ingredient_key": "cup_8oz",
+                        "qty": 1
+                    },
+                    {
+                        "ingredient_key": "sendok_kayu",
+                        "qty": 1
+                    }
+                ]
+            },
+            "set_gelas_energen": {
+                "name": "Set Gelas (Energen)",
+                "sell_price": 5000,
+                "price_history": [
+                    {
+                        "effective_date": "2026-03-15",
+                        "price": 5000,
+                        "previous_price": null,
+                        "recorded_at": "2026-03-15 00:00:00",
+                        "note": "Menu racikan ditambahkan"
+                    }
+                ],
+                "recipe": [
+                    {
+                        "ingredient_key": "energen",
+                        "qty": 1
+                    },
+                    {
+                        "ingredient_key": "cup_8oz",
+                        "qty": 1
+                    },
+                    {
+                        "ingredient_key": "sendok_kayu",
+                        "qty": 1
+                    }
+                ]
+            },
+            "set_gelas_good_day_cappuccino": {
+                "name": "Set Gelas (Good Day Cappuccino)",
+                "sell_price": 5000,
+                "price_history": [
+                    {
+                        "effective_date": "2026-03-15",
+                        "price": 5000,
+                        "previous_price": null,
+                        "recorded_at": "2026-03-15 00:00:00",
+                        "note": "Menu racikan ditambahkan"
+                    }
+                ],
+                "recipe": [
+                    {
+                        "ingredient_key": "good_day_chococinno",
+                        "qty": 1
+                    },
+                    {
+                        "ingredient_key": "cup_8oz",
+                        "qty": 1
+                    },
+                    {
+                        "ingredient_key": "sendok_kayu",
+                        "qty": 1
+                    }
+                ]
+            },
+            "set_gelas_susu_milo": {
+                "name": "Set Gelas (Susu Milo)",
+                "sell_price": 5000,
+                "price_history": [
+                    {
+                        "effective_date": "2026-03-15",
+                        "price": 5000,
+                        "previous_price": null,
+                        "recorded_at": "2026-03-15 00:00:00",
+                        "note": "Menu racikan ditambahkan"
+                    }
+                ],
+                "recipe": [
+                    {
+                        "ingredient_key": "susu_milo",
+                        "qty": 1
+                    },
+                    {
+                        "ingredient_key": "cup_8oz",
+                        "qty": 1
+                    },
+                    {
+                        "ingredient_key": "sendok_kayu",
+                        "qty": 1
+                    }
+                ]
+            },
+            "set_gelas_good_day_chococinno": {
+                "name": "Set Gelas (Good Day Chococinno)",
+                "sell_price": 5000,
+                "price_history": [
+                    {
+                        "effective_date": "2026-03-15",
+                        "price": 5000,
+                        "previous_price": null,
+                        "recorded_at": "2026-03-15 00:00:00",
+                        "note": "Menu racikan ditambahkan"
+                    }
+                ],
+                "recipe": [
+                    {
+                        "ingredient_key": "good_day_chococinno",
+                        "qty": 1
+                    },
+                    {
+                        "ingredient_key": "cup_8oz",
+                        "qty": 1
+                    },
+                    {
+                        "ingredient_key": "sendok_kayu",
+                        "qty": 1
+                    }
+                ]
+            }
+        },
+        "archived_mixed_menus": []
+    },
+    "summary": {
+        "cash_balance": 87324,
+        "external_capital": 0,
+        "total_actual_profit": 646036.0300000001,
+        "total_theoretical_revenue": 2245000,
+        "total_actual_revenue": 1983500,
+        "total_self_payment_diff": -261500,
+        "total_operational_expense": 0,
+        "total_restock_cost": 1820387,
+        "total_owner_withdrawal": 0
+    },
+    "logs": [
+        {
+            "id": "69b611bc1b5e96.70741568",
+            "type": "update_stock",
+            "date": "2026-03-14",
+            "description": "Rekap stok keluar \/ self payment",
+            "meta": {
+                "items": [
+                    {
+                        "product": "Cheers",
+                        "previous_stock": 47,
+                        "remaining_stock": 28,
+                        "qty_out": 19,
+                        "sell_price": 3000,
+                        "sell_price_effective_date": "2000-01-01",
+                        "avg_cost": 1541.67,
+                        "theoretical_revenue": 57000,
+                        "cost_out": 29291.73
+                    },
+                    {
+                        "product": "Floridina",
+                        "previous_stock": 15,
+                        "remaining_stock": 9,
+                        "qty_out": 6,
+                        "sell_price": 5000,
+                        "sell_price_effective_date": "2000-01-01",
+                        "avg_cost": 2443.75,
+                        "theoretical_revenue": 30000,
+                        "cost_out": 14662.5
+                    },
+                    {
+                        "product": "Teh Pucuk",
+                        "previous_stock": 24,
+                        "remaining_stock": 21,
+                        "qty_out": 3,
+                        "sell_price": 5000,
+                        "sell_price_effective_date": "2000-01-01",
+                        "avg_cost": 2833.33,
+                        "theoretical_revenue": 15000,
+                        "cost_out": 8499.99
+                    },
+                    {
+                        "product": "Ultra Milk",
+                        "previous_stock": 59,
+                        "remaining_stock": 38,
+                        "qty_out": 21,
+                        "sell_price": 8000,
+                        "sell_price_effective_date": "2000-01-01",
+                        "avg_cost": 5166.98,
+                        "theoretical_revenue": 168000,
+                        "cost_out": 108506.58
+                    }
+                ],
+                "actual_cash_in": 300000,
+                "theoretical_revenue": 305000,
+                "cost_out": 185157.85,
+                "self_payment_diff": -5000,
+                "actual_profit": 114842.15,
+                "mixed_menu_items": [
+                    {
+                        "menu": "Set Gelas (MiGelas)",
+                        "qty_sold": 1,
+                        "sell_price": 5000,
+                        "sell_price_effective_date": "2026-03-15",
+                        "theoretical_revenue": 5000,
+                        "recipe_cost": 3468.15,
+                        "recipe_items": [
+                            {
+                                "ingredient": "MiGelas Renceng",
+                                "ingredient_key": "migelas_renceng",
+                                "unit": "pcs",
+                                "qty_per_menu": 2,
+                                "qty_used": 2,
+                                "avg_cost": 1390,
+                                "cost_out": 2780
+                            },
+                            {
+                                "ingredient": "Cup 8oz",
+                                "ingredient_key": "cup_8oz",
+                                "unit": "pcs",
+                                "qty_per_menu": 1,
+                                "qty_used": 1,
+                                "avg_cost": 375.54,
+                                "cost_out": 375.54
+                            },
+                            {
+                                "ingredient": "Sendok Kayu",
+                                "ingredient_key": "sendok_kayu",
+                                "unit": "pcs",
+                                "qty_per_menu": 1,
+                                "qty_used": 1,
+                                "avg_cost": 312.61,
+                                "cost_out": 312.61
+                            }
+                        ]
+                    },
+                    {
+                        "menu": "Set Gelas (Energen)",
+                        "qty_sold": 5,
+                        "sell_price": 5000,
+                        "sell_price_effective_date": "2026-03-15",
+                        "theoretical_revenue": 25000,
+                        "recipe_cost": 17390.75,
+                        "recipe_items": [
+                            {
+                                "ingredient": "Energen",
+                                "ingredient_key": "energen",
+                                "unit": "pcs",
+                                "qty_per_menu": 1,
+                                "qty_used": 5,
+                                "avg_cost": 2790,
+                                "cost_out": 13950
+                            },
+                            {
+                                "ingredient": "Cup 8oz",
+                                "ingredient_key": "cup_8oz",
+                                "unit": "pcs",
+                                "qty_per_menu": 1,
+                                "qty_used": 5,
+                                "avg_cost": 375.54,
+                                "cost_out": 1877.7
+                            },
+                            {
+                                "ingredient": "Sendok Kayu",
+                                "ingredient_key": "sendok_kayu",
+                                "unit": "pcs",
+                                "qty_per_menu": 1,
+                                "qty_used": 5,
+                                "avg_cost": 312.61,
+                                "cost_out": 1563.05
+                            }
+                        ]
+                    },
+                    {
+                        "menu": "Set Gelas (Susu Milo)",
+                        "qty_sold": 1,
+                        "sell_price": 5000,
+                        "sell_price_effective_date": "2026-03-15",
+                        "theoretical_revenue": 5000,
+                        "recipe_cost": 3338.15,
+                        "recipe_items": [
+                            {
+                                "ingredient": "Susu Milo",
+                                "ingredient_key": "susu_milo",
+                                "unit": "pcs",
+                                "qty_per_menu": 1,
+                                "qty_used": 1,
+                                "avg_cost": 2650,
+                                "cost_out": 2650
+                            },
+                            {
+                                "ingredient": "Cup 8oz",
+                                "ingredient_key": "cup_8oz",
+                                "unit": "pcs",
+                                "qty_per_menu": 1,
+                                "qty_used": 1,
+                                "avg_cost": 375.54,
+                                "cost_out": 375.54
+                            },
+                            {
+                                "ingredient": "Sendok Kayu",
+                                "ingredient_key": "sendok_kayu",
+                                "unit": "pcs",
+                                "qty_per_menu": 1,
+                                "qty_used": 1,
+                                "avg_cost": 312.61,
+                                "cost_out": 312.61
+                            }
+                        ]
+                    }
+                ],
+                "ingredient_usage": [
+                    {
+                        "ingredient": "MiGelas Renceng",
+                        "unit": "pcs",
+                        "qty_used": 2,
+                        "cost_out": 2780,
+                        "previous_stock": 10,
+                        "remaining_stock": 8,
+                        "avg_cost": 1390
+                    },
+                    {
+                        "ingredient": "Cup 8oz",
+                        "unit": "pcs",
+                        "qty_used": 7,
+                        "cost_out": 2628.78,
+                        "previous_stock": 100,
+                        "remaining_stock": 93,
+                        "avg_cost": 375.54
+                    },
+                    {
+                        "ingredient": "Sendok Kayu",
+                        "unit": "pcs",
+                        "qty_used": 7,
+                        "cost_out": 2188.27,
+                        "previous_stock": 100,
+                        "remaining_stock": 93,
+                        "avg_cost": 312.61
+                    },
+                    {
+                        "ingredient": "Energen",
+                        "unit": "pcs",
+                        "qty_used": 5,
+                        "cost_out": 13950,
+                        "previous_stock": 10,
+                        "remaining_stock": 5,
+                        "avg_cost": 2790
+                    },
+                    {
+                        "ingredient": "Susu Milo",
+                        "unit": "pcs",
+                        "qty_used": 1,
+                        "cost_out": 2650,
+                        "previous_stock": 10,
+                        "remaining_stock": 9,
+                        "avg_cost": 2650
+                    }
+                ],
+                "note": ""
+            },
+            "created_at": "2026-03-15 02:56:12"
+        },
+        {
+            "id": "69b6068958f070.45689596",
+            "type": "restock_ingredient",
+            "date": "2026-03-15",
+            "description": "Restock bahan racikan",
+            "meta": {
+                "items": [
+                    {
+                        "ingredient": "Good Day Chococinno",
+                        "unit": "pcs",
+                        "previous_stock": 0,
+                        "qty": 10,
+                        "total_cost": 20500,
+                        "unit_cost": 2050,
+                        "new_avg_cost": 2050
+                    },
+                    {
+                        "ingredient": "Susu Milo",
+                        "unit": "pcs",
+                        "previous_stock": 0,
+                        "qty": 10,
+                        "total_cost": 26500,
+                        "unit_cost": 2650,
+                        "new_avg_cost": 2650
+                    },
+                    {
+                        "ingredient": "Good Day Cappuccino",
+                        "unit": "pcs",
+                        "previous_stock": 0,
+                        "qty": 10,
+                        "total_cost": 28500,
+                        "unit_cost": 2850,
+                        "new_avg_cost": 2850
+                    },
+                    {
+                        "ingredient": "Energen",
+                        "unit": "pcs",
+                        "previous_stock": 0,
+                        "qty": 10,
+                        "total_cost": 27900,
+                        "unit_cost": 2790,
+                        "new_avg_cost": 2790
+                    }
+                ],
+                "total_cost": 103400,
+                "note": ""
+            },
+            "created_at": "2026-03-15 02:08:25"
+        },
+        {
+            "id": "69b605233117c2.31461722",
+            "type": "restock_ingredient",
+            "date": "2026-03-15",
+            "description": "Restock bahan racikan",
+            "meta": {
+                "items": [
+                    {
+                        "ingredient": "MiGelas Renceng",
+                        "unit": "pcs",
+                        "previous_stock": 0,
+                        "qty": 10,
+                        "total_cost": 13900,
+                        "unit_cost": 1390,
+                        "new_avg_cost": 1390
+                    }
+                ],
+                "total_cost": 13900,
+                "note": ""
+            },
+            "created_at": "2026-03-15 02:02:27"
+        },
+        {
+            "id": "69b604dc8c0546.92179770",
+            "type": "restock_ingredient",
+            "date": "2026-03-15",
+            "description": "Restock bahan racikan",
+            "meta": {
+                "items": [
+                    {
+                        "ingredient": "Sendok Kayu",
+                        "unit": "pcs",
+                        "previous_stock": 0,
+                        "qty": 100,
+                        "total_cost": 31261,
+                        "unit_cost": 312.61,
+                        "new_avg_cost": 312.61
+                    }
+                ],
+                "total_cost": 31261,
+                "note": ""
+            },
+            "created_at": "2026-03-15 02:01:16"
+        },
+        {
+            "id": "69b604bb4f49b4.27390803",
+            "type": "restock_ingredient",
+            "date": "2026-03-15",
+            "description": "Restock bahan racikan",
+            "meta": {
+                "items": [
+                    {
+                        "ingredient": "Cup 8oz",
+                        "unit": "pcs",
+                        "previous_stock": 0,
+                        "qty": 100,
+                        "total_cost": 37554,
+                        "unit_cost": 375.54,
+                        "new_avg_cost": 375.54
+                    }
+                ],
+                "total_cost": 37554,
+                "note": ""
+            },
+            "created_at": "2026-03-15 02:00:43"
+        },
+        {
+            "id": "69b5a4775981b2.68748938",
+            "type": "purchase",
+            "date": "2026-03-14",
+            "description": "Pembelian aset",
+            "meta": {
+                "item_name": "Display QRIS A5",
+                "amount": 23000,
+                "note": ""
+            },
+            "created_at": "2026-03-14 19:09:59"
+        },
+        {
+            "id": "69ad43e9009f34.19296326",
+            "type": "purchase",
+            "date": "2026-03-06",
+            "description": "Pembelian aset",
+            "meta": {
+                "item_name": "Rak Hitam 4 Susun",
+                "amount": 29789,
+                "note": ""
+            },
+            "created_at": "2026-03-08 10:39:53"
+        },
+        {
+            "id": "69abb1fba7d4b2.40541726",
+            "type": "restock",
+            "date": "2026-03-06",
+            "description": "Restock Teh Pucuk",
+            "meta": {
+                "product": "Teh Pucuk",
+                "qty": 24,
+                "total_cost": 68000,
+                "unit_cost": 2833.33,
+                "new_avg_cost": 2833.33,
+                "note": ""
+            },
+            "created_at": "2026-03-07 06:04:59"
+        },
+        {
+            "id": "69abb18b075ba3.89126135",
+            "type": "update_stock",
+            "date": "2026-03-03",
+            "description": "Rekap stok keluar \/ self payment",
+            "meta": {
+                "items": [
+                    {
+                        "product": "Cheers",
+                        "previous_stock": 54,
+                        "remaining_stock": 47,
+                        "qty_out": 7,
+                        "sell_price": 3000,
+                        "avg_cost": 1541.67,
+                        "theoretical_revenue": 21000,
+                        "cost_out": 10791.69
+                    },
+                    {
+                        "product": "Floridina",
+                        "previous_stock": 18,
+                        "remaining_stock": 15,
+                        "qty_out": 3,
+                        "sell_price": 5000,
+                        "avg_cost": 2443.75,
+                        "theoretical_revenue": 15000,
+                        "cost_out": 7331.25
+                    },
+                    {
+                        "product": "Ultra Milk",
+                        "previous_stock": 68,
+                        "remaining_stock": 59,
+                        "qty_out": 9,
+                        "sell_price": 8000,
+                        "avg_cost": 5166.98,
+                        "theoretical_revenue": 72000,
+                        "cost_out": 46502.82
+                    }
+                ],
+                "actual_cash_in": 124000,
+                "theoretical_revenue": 108000,
+                "cost_out": 64625.76,
+                "self_payment_diff": 16000,
+                "actual_profit": 59374.24,
+                "note": ""
+            },
+            "created_at": "2026-03-07 06:03:07"
+        },
+        {
+            "id": "69abb1780be0b2.74238121",
+            "type": "restock",
+            "date": "2026-03-03",
+            "description": "Restock Ultra Milk",
+            "meta": {
+                "product": "Ultra Milk",
+                "qty": 24,
+                "total_cost": 115700,
+                "unit_cost": 4820.83,
+                "new_avg_cost": 5166.98,
+                "note": ""
+            },
+            "created_at": "2026-03-07 06:02:48"
+        },
+        {
+            "id": "69abb163985df0.81038093",
+            "type": "restock",
+            "date": "2026-02-21",
+            "description": "Restock Cheers",
+            "meta": {
+                "product": "Cheers",
+                "qty": 48,
+                "total_cost": 74000,
+                "unit_cost": 1541.67,
+                "new_avg_cost": 1541.67,
+                "note": ""
+            },
+            "created_at": "2026-03-07 06:02:27"
+        },
+        {
+            "id": "69abb10d087830.15725246",
+            "type": "update_stock",
+            "date": "2026-02-21",
+            "description": "Rekap stok keluar \/ self payment",
+            "meta": {
+                "items": [
+                    {
+                        "product": "Cheers",
+                        "previous_stock": 16,
+                        "remaining_stock": 6,
+                        "qty_out": 10,
+                        "sell_price": 3000,
+                        "avg_cost": 1541.67,
+                        "theoretical_revenue": 30000,
+                        "cost_out": 15416.7
+                    },
+                    {
+                        "product": "Ultra Milk",
+                        "previous_stock": 62,
+                        "remaining_stock": 44,
+                        "qty_out": 18,
+                        "sell_price": 8000,
+                        "avg_cost": 5355.79,
+                        "theoretical_revenue": 144000,
+                        "cost_out": 96404.22
+                    }
+                ],
+                "actual_cash_in": 125000,
+                "theoretical_revenue": 174000,
+                "cost_out": 111820.92,
+                "self_payment_diff": -49000,
+                "actual_profit": 13179.08,
+                "note": ""
+            },
+            "created_at": "2026-03-07 06:01:01"
+        },
+        {
+            "id": "69abb0a3eaa584.52712861",
+            "type": "update_stock",
+            "date": "2026-02-06",
+            "description": "Rekap stok keluar \/ self payment",
+            "meta": {
+                "items": [
+                    {
+                        "product": "Cheers",
+                        "previous_stock": 19,
+                        "remaining_stock": 16,
+                        "qty_out": 3,
+                        "sell_price": 3000,
+                        "avg_cost": 1541.67,
+                        "theoretical_revenue": 9000,
+                        "cost_out": 4625.01
+                    },
+                    {
+                        "product": "Floridina",
+                        "previous_stock": 25,
+                        "remaining_stock": 18,
+                        "qty_out": 7,
+                        "sell_price": 5000,
+                        "avg_cost": 2443.75,
+                        "theoretical_revenue": 35000,
+                        "cost_out": 17106.25
+                    },
+                    {
+                        "product": "Ultra Milk",
+                        "previous_stock": 66,
+                        "remaining_stock": 62,
+                        "qty_out": 4,
+                        "sell_price": 8000,
+                        "avg_cost": 5355.79,
+                        "theoretical_revenue": 32000,
+                        "cost_out": 21423.16
+                    }
+                ],
+                "actual_cash_in": 71000,
+                "theoretical_revenue": 76000,
+                "cost_out": 43154.42,
+                "self_payment_diff": -5000,
+                "actual_profit": 27845.58,
+                "note": ""
+            },
+            "created_at": "2026-03-07 05:59:15"
+        },
+        {
+            "id": "69abb05cb46601.49801404",
+            "type": "restock",
+            "date": "2026-02-02",
+            "description": "Restock Ultra Milk",
+            "meta": {
+                "product": "Ultra Milk",
+                "qty": 48,
+                "total_cost": 260104,
+                "unit_cost": 5418.83,
+                "new_avg_cost": 5355.79,
+                "note": ""
+            },
+            "created_at": "2026-03-07 05:58:04"
+        },
+        {
+            "id": "69abaf6daadd03.49483922",
+            "type": "update_stock",
+            "date": "2026-02-02",
+            "description": "Rekap stok keluar \/ self payment",
+            "meta": {
+                "items": [
+                    {
+                        "product": "Cheers",
+                        "previous_stock": 27,
+                        "remaining_stock": 19,
+                        "qty_out": 8,
+                        "sell_price": 3000,
+                        "avg_cost": 1541.67,
+                        "theoretical_revenue": 24000,
+                        "cost_out": 12333.36
+                    },
+                    {
+                        "product": "Floridina",
+                        "previous_stock": 28,
+                        "remaining_stock": 25,
+                        "qty_out": 3,
+                        "sell_price": 5000,
+                        "avg_cost": 2443.75,
+                        "theoretical_revenue": 15000,
+                        "cost_out": 7331.25
+                    },
+                    {
+                        "product": "Teh Pucuk",
+                        "previous_stock": 2,
+                        "remaining_stock": 0,
+                        "qty_out": 2,
+                        "sell_price": 5000,
+                        "avg_cost": 2569.54,
+                        "theoretical_revenue": 10000,
+                        "cost_out": 5139.08
+                    },
+                    {
+                        "product": "Ultra Milk",
+                        "previous_stock": 33,
+                        "remaining_stock": 18,
+                        "qty_out": 15,
+                        "sell_price": 8000,
+                        "avg_cost": 5187.67,
+                        "theoretical_revenue": 120000,
+                        "cost_out": 77815.05
+                    }
+                ],
+                "actual_cash_in": 142000,
+                "theoretical_revenue": 169000,
+                "cost_out": 102618.74,
+                "self_payment_diff": -27000,
+                "actual_profit": 39381.26,
+                "note": ""
+            },
+            "created_at": "2026-03-07 05:54:05"
+        },
+        {
+            "id": "69abaf16d323a6.43169177",
+            "type": "update_stock",
+            "date": "2026-01-24",
+            "description": "Rekap stok keluar \/ self payment",
+            "meta": {
+                "items": [
+                    {
+                        "product": "Cheers",
+                        "previous_stock": 34,
+                        "remaining_stock": 27,
+                        "qty_out": 7,
+                        "sell_price": 3000,
+                        "avg_cost": 1541.67,
+                        "theoretical_revenue": 21000,
+                        "cost_out": 10791.69
+                    },
+                    {
+                        "product": "Teh Pucuk",
+                        "previous_stock": 3,
+                        "remaining_stock": 2,
+                        "qty_out": 1,
+                        "sell_price": 5000,
+                        "avg_cost": 2569.54,
+                        "theoretical_revenue": 5000,
+                        "cost_out": 2569.54
+                    },
+                    {
+                        "product": "Ultra Milk",
+                        "previous_stock": 41,
+                        "remaining_stock": 33,
+                        "qty_out": 8,
+                        "sell_price": 8000,
+                        "avg_cost": 5187.67,
+                        "theoretical_revenue": 64000,
+                        "cost_out": 41501.36
+                    }
+                ],
+                "actual_cash_in": 76000,
+                "theoretical_revenue": 90000,
+                "cost_out": 54862.59,
+                "self_payment_diff": -14000,
+                "actual_profit": 21137.41,
+                "note": ""
+            },
+            "created_at": "2026-03-07 05:52:38"
+        },
+        {
+            "id": "69abaec8dd04f6.54364756",
+            "type": "update_stock",
+            "date": "2026-01-18",
+            "description": "Rekap stok keluar \/ self payment",
+            "meta": {
+                "items": [
+                    {
+                        "product": "Cheers",
+                        "previous_stock": 40,
+                        "remaining_stock": 34,
+                        "qty_out": 6,
+                        "sell_price": 3000,
+                        "avg_cost": 1541.67,
+                        "theoretical_revenue": 18000,
+                        "cost_out": 9250.02
+                    },
+                    {
+                        "product": "Floridina",
+                        "previous_stock": 29,
+                        "remaining_stock": 28,
+                        "qty_out": 1,
+                        "sell_price": 5000,
+                        "avg_cost": 2443.75,
+                        "theoretical_revenue": 5000,
+                        "cost_out": 2443.75
+                    },
+                    {
+                        "product": "Kopi ABC",
+                        "previous_stock": 4,
+                        "remaining_stock": 0,
+                        "qty_out": 4,
+                        "sell_price": 5000,
+                        "avg_cost": 3083.33,
+                        "theoretical_revenue": 20000,
+                        "cost_out": 12333.32
+                    },
+                    {
+                        "product": "Ultra Milk",
+                        "previous_stock": 55,
+                        "remaining_stock": 41,
+                        "qty_out": 14,
+                        "sell_price": 8000,
+                        "avg_cost": 5187.67,
+                        "theoretical_revenue": 112000,
+                        "cost_out": 72627.38
+                    }
+                ],
+                "actual_cash_in": 116500,
+                "theoretical_revenue": 155000,
+                "cost_out": 96654.47,
+                "self_payment_diff": -38500,
+                "actual_profit": 19845.53,
+                "note": ""
+            },
+            "created_at": "2026-03-07 05:51:20"
+        },
+        {
+            "id": "69abae9140a506.12146492",
+            "type": "update_stock",
+            "date": "2026-01-11",
+            "description": "Rekap stok keluar \/ self payment",
+            "meta": {
+                "items": [
+                    {
+                        "product": "Cheers",
+                        "previous_stock": 48,
+                        "remaining_stock": 40,
+                        "qty_out": 8,
+                        "sell_price": 3000,
+                        "avg_cost": 1541.67,
+                        "theoretical_revenue": 24000,
+                        "cost_out": 12333.36
+                    },
+                    {
+                        "product": "Floridina",
+                        "previous_stock": 34,
+                        "remaining_stock": 29,
+                        "qty_out": 5,
+                        "sell_price": 5000,
+                        "avg_cost": 2443.75,
+                        "theoretical_revenue": 25000,
+                        "cost_out": 12218.75
+                    },
+                    {
+                        "product": "Teh Pucuk",
+                        "previous_stock": 11,
+                        "remaining_stock": 3,
+                        "qty_out": 8,
+                        "sell_price": 5000,
+                        "avg_cost": 2569.54,
+                        "theoretical_revenue": 40000,
+                        "cost_out": 20556.32
+                    },
+                    {
+                        "product": "Kopi ABC",
+                        "previous_stock": 7,
+                        "remaining_stock": 4,
+                        "qty_out": 3,
+                        "sell_price": 5000,
+                        "avg_cost": 3083.33,
+                        "theoretical_revenue": 15000,
+                        "cost_out": 9249.99
+                    },
+                    {
+                        "product": "Ultra Milk",
+                        "previous_stock": 67,
+                        "remaining_stock": 55,
+                        "qty_out": 12,
+                        "sell_price": 8000,
+                        "avg_cost": 5187.67,
+                        "theoretical_revenue": 96000,
+                        "cost_out": 62252.04
+                    }
+                ],
+                "actual_cash_in": 131000,
+                "theoretical_revenue": 200000,
+                "cost_out": 116610.46,
+                "self_payment_diff": -69000,
+                "actual_profit": 14389.54,
+                "note": ""
+            },
+            "created_at": "2026-03-07 05:50:25"
+        },
+        {
+            "id": "69abae6f681c93.17812585",
+            "type": "restock",
+            "date": "2026-01-07",
+            "description": "Restock Cheers",
+            "meta": {
+                "product": "Cheers",
+                "qty": 48,
+                "total_cost": 74000,
+                "unit_cost": 1541.67,
+                "new_avg_cost": 1541.67,
+                "note": ""
+            },
+            "created_at": "2026-03-07 05:49:51"
+        },
+        {
+            "id": "69abae3ee86950.12580179",
+            "type": "update_stock",
+            "date": "2026-01-03",
+            "description": "Rekap stok keluar \/ self payment",
+            "meta": {
+                "items": [
+                    {
+                        "product": "Floridina",
+                        "previous_stock": 40,
+                        "remaining_stock": 34,
+                        "qty_out": 6,
+                        "sell_price": 5000,
+                        "avg_cost": 2443.75,
+                        "theoretical_revenue": 30000,
+                        "cost_out": 14662.5
+                    },
+                    {
+                        "product": "Teh Pucuk",
+                        "previous_stock": 12,
+                        "remaining_stock": 11,
+                        "qty_out": 1,
+                        "sell_price": 5000,
+                        "avg_cost": 2569.54,
+                        "theoretical_revenue": 5000,
+                        "cost_out": 2569.54
+                    },
+                    {
+                        "product": "Ultra Milk",
+                        "previous_stock": 77,
+                        "remaining_stock": 67,
+                        "qty_out": 10,
+                        "sell_price": 8000,
+                        "avg_cost": 5187.67,
+                        "theoretical_revenue": 80000,
+                        "cost_out": 51876.7
+                    }
+                ],
+                "actual_cash_in": 97000,
+                "theoretical_revenue": 115000,
+                "cost_out": 69108.74,
+                "self_payment_diff": -18000,
+                "actual_profit": 27891.26,
+                "note": ""
+            },
+            "created_at": "2026-03-07 05:49:02"
+        },
+        {
+            "id": "69abae1dd7b3b8.10530853",
+            "type": "restock",
+            "date": "2026-01-02",
+            "description": "Restock Ultra Milk",
+            "meta": {
+                "product": "Ultra Milk",
+                "qty": 48,
+                "total_cost": 249048,
+                "unit_cost": 5188.5,
+                "new_avg_cost": 5187.67,
+                "note": ""
+            },
+            "created_at": "2026-03-07 05:48:29"
+        },
+        {
+            "id": "69abade48dfec0.75000452",
+            "type": "update_stock",
+            "date": "2025-12-24",
+            "description": "Rekap stok keluar \/ self payment",
+            "meta": {
+                "items": [
+                    {
+                        "product": "Cheers",
+                        "previous_stock": 12,
+                        "remaining_stock": 0,
+                        "qty_out": 12,
+                        "sell_price": 3000,
+                        "avg_cost": 1541.67,
+                        "theoretical_revenue": 36000,
+                        "cost_out": 18500.04
+                    },
+                    {
+                        "product": "Floridina",
+                        "previous_stock": 48,
+                        "remaining_stock": 40,
+                        "qty_out": 8,
+                        "sell_price": 5000,
+                        "avg_cost": 2443.75,
+                        "theoretical_revenue": 40000,
+                        "cost_out": 19550
+                    },
+                    {
+                        "product": "Teh Pucuk",
+                        "previous_stock": 20,
+                        "remaining_stock": 12,
+                        "qty_out": 8,
+                        "sell_price": 5000,
+                        "avg_cost": 2569.54,
+                        "theoretical_revenue": 40000,
+                        "cost_out": 20556.32
+                    },
+                    {
+                        "product": "Kopi ABC",
+                        "previous_stock": 8,
+                        "remaining_stock": 7,
+                        "qty_out": 1,
+                        "sell_price": 5000,
+                        "avg_cost": 3083.33,
+                        "theoretical_revenue": 5000,
+                        "cost_out": 3083.33
+                    },
+                    {
+                        "product": "Ultra Milk",
+                        "previous_stock": 40,
+                        "remaining_stock": 29,
+                        "qty_out": 11,
+                        "sell_price": 8000,
+                        "avg_cost": 5186.29,
+                        "theoretical_revenue": 88000,
+                        "cost_out": 57049.19
+                    }
+                ],
+                "actual_cash_in": 188000,
+                "theoretical_revenue": 209000,
+                "cost_out": 118738.88,
+                "self_payment_diff": -21000,
+                "actual_profit": 69261.12,
+                "note": ""
+            },
+            "created_at": "2026-03-07 05:47:32"
+        },
+        {
+            "id": "69abadab38ef56.37023797",
+            "type": "restock",
+            "date": "2025-12-14",
+            "description": "Restock Floridina",
+            "meta": {
+                "product": "Floridina",
+                "qty": 48,
+                "total_cost": 117300,
+                "unit_cost": 2443.75,
+                "new_avg_cost": 2443.75,
+                "note": ""
+            },
+            "created_at": "2026-03-07 05:46:35"
+        },
+        {
+            "id": "69abad8b5672a5.29447283",
+            "type": "update_stock",
+            "date": "2025-12-14",
+            "description": "Rekap stok keluar \/ self payment",
+            "meta": {
+                "items": [
+                    {
+                        "product": "Cheers",
+                        "previous_stock": 16,
+                        "remaining_stock": 12,
+                        "qty_out": 4,
+                        "sell_price": 3000,
+                        "avg_cost": 1541.67,
+                        "theoretical_revenue": 12000,
+                        "cost_out": 6166.68
+                    },
+                    {
+                        "product": "Floridina",
+                        "previous_stock": 5,
+                        "remaining_stock": 0,
+                        "qty_out": 5,
+                        "sell_price": 5000,
+                        "avg_cost": 2941.03,
+                        "theoretical_revenue": 25000,
+                        "cost_out": 14705.15
+                    },
+                    {
+                        "product": "Teh Pucuk",
+                        "previous_stock": 26,
+                        "remaining_stock": 20,
+                        "qty_out": 6,
+                        "sell_price": 5000,
+                        "avg_cost": 2569.54,
+                        "theoretical_revenue": 30000,
+                        "cost_out": 15417.24
+                    },
+                    {
+                        "product": "Kopi ABC",
+                        "previous_stock": 10,
+                        "remaining_stock": 8,
+                        "qty_out": 2,
+                        "sell_price": 5000,
+                        "avg_cost": 3083.33,
+                        "theoretical_revenue": 10000,
+                        "cost_out": 6166.66
+                    },
+                    {
+                        "product": "Ultra Milk",
+                        "previous_stock": 48,
+                        "remaining_stock": 40,
+                        "qty_out": 8,
+                        "sell_price": 8000,
+                        "avg_cost": 5186.29,
+                        "theoretical_revenue": 64000,
+                        "cost_out": 41490.32
+                    }
+                ],
+                "actual_cash_in": 125000,
+                "theoretical_revenue": 141000,
+                "cost_out": 83946.05,
+                "self_payment_diff": -16000,
+                "actual_profit": 41053.95,
+                "note": ""
+            },
+            "created_at": "2026-03-07 05:46:03"
+        },
+        {
+            "id": "69abad576bc316.31945498",
+            "type": "restock",
+            "date": "2025-12-11",
+            "description": "Restock Teh Pucuk",
+            "meta": {
+                "product": "Teh Pucuk",
+                "qty": 24,
+                "total_cost": 61433,
+                "unit_cost": 2559.71,
+                "new_avg_cost": 2569.54,
+                "note": ""
+            },
+            "created_at": "2026-03-07 05:45:11"
+        },
+        {
+            "id": "69abad371e1667.51128041",
+            "type": "restock",
+            "date": "2025-12-10",
+            "description": "Restock Ultra Milk",
+            "meta": {
+                "product": "Ultra Milk",
+                "qty": 48,
+                "total_cost": 248942,
+                "unit_cost": 5186.29,
+                "new_avg_cost": 5186.29,
+                "note": ""
+            },
+            "created_at": "2026-03-07 05:44:39"
+        },
+        {
+            "id": "69abace262b335.67282171",
+            "type": "update_stock",
+            "date": "2025-12-06",
+            "description": "Rekap stok keluar \/ self payment",
+            "meta": {
+                "items": [
+                    {
+                        "product": "Cheers",
+                        "previous_stock": 20,
+                        "remaining_stock": 16,
+                        "qty_out": 4,
+                        "sell_price": 3000,
+                        "avg_cost": 1541.67,
+                        "theoretical_revenue": 12000,
+                        "cost_out": 6166.68
+                    },
+                    {
+                        "product": "Floridina",
+                        "previous_stock": 7,
+                        "remaining_stock": 5,
+                        "qty_out": 2,
+                        "sell_price": 5000,
+                        "avg_cost": 2941.03,
+                        "theoretical_revenue": 10000,
+                        "cost_out": 5882.06
+                    },
+                    {
+                        "product": "Teh Pucuk",
+                        "previous_stock": 7,
+                        "remaining_stock": 2,
+                        "qty_out": 5,
+                        "sell_price": 5000,
+                        "avg_cost": 2687.5,
+                        "theoretical_revenue": 25000,
+                        "cost_out": 13437.5
+                    },
+                    {
+                        "product": "Ultra Milk",
+                        "previous_stock": 8,
+                        "remaining_stock": 0,
+                        "qty_out": 8,
+                        "sell_price": 8000,
+                        "avg_cost": 4920.63,
+                        "theoretical_revenue": 64000,
+                        "cost_out": 39365.04
+                    }
+                ],
+                "actual_cash_in": 94000,
+                "theoretical_revenue": 111000,
+                "cost_out": 64851.28,
+                "self_payment_diff": -17000,
+                "actual_profit": 29148.72,
+                "note": ""
+            },
+            "created_at": "2026-03-07 05:43:14"
+        },
+        {
+            "id": "69abaca1c43d37.46615585",
+            "type": "update_stock",
+            "date": "2025-11-30",
+            "description": "Rekap stok keluar \/ self payment",
+            "meta": {
+                "items": [
+                    {
+                        "product": "Cheers",
+                        "previous_stock": 25,
+                        "remaining_stock": 20,
+                        "qty_out": 5,
+                        "sell_price": 3000,
+                        "avg_cost": 1541.67,
+                        "theoretical_revenue": 15000,
+                        "cost_out": 7708.35
+                    },
+                    {
+                        "product": "Floridina",
+                        "previous_stock": 8,
+                        "remaining_stock": 7,
+                        "qty_out": 1,
+                        "sell_price": 5000,
+                        "avg_cost": 2941.03,
+                        "theoretical_revenue": 5000,
+                        "cost_out": 2941.03
+                    },
+                    {
+                        "product": "Teh Pucuk",
+                        "previous_stock": 8,
+                        "remaining_stock": 7,
+                        "qty_out": 1,
+                        "sell_price": 5000,
+                        "avg_cost": 2687.5,
+                        "theoretical_revenue": 5000,
+                        "cost_out": 2687.5
+                    },
+                    {
+                        "product": "Ultra Milk",
+                        "previous_stock": 12,
+                        "remaining_stock": 8,
+                        "qty_out": 4,
+                        "sell_price": 8000,
+                        "avg_cost": 4920.63,
+                        "theoretical_revenue": 32000,
+                        "cost_out": 19682.52
+                    }
+                ],
+                "actual_cash_in": 56000,
+                "theoretical_revenue": 57000,
+                "cost_out": 33019.4,
+                "self_payment_diff": -1000,
+                "actual_profit": 22980.6,
+                "note": ""
+            },
+            "created_at": "2026-03-07 05:42:09"
+        },
+        {
+            "id": "69abac7b971736.23910852",
+            "type": "update_stock",
+            "date": "2025-11-27",
+            "description": "Rekap stok keluar \/ self payment",
+            "meta": {
+                "items": [
+                    {
+                        "product": "Cheers",
+                        "previous_stock": 28,
+                        "remaining_stock": 25,
+                        "qty_out": 3,
+                        "sell_price": 3000,
+                        "avg_cost": 1541.67,
+                        "theoretical_revenue": 9000,
+                        "cost_out": 4625.01
+                    },
+                    {
+                        "product": "Floridina",
+                        "previous_stock": 9,
+                        "remaining_stock": 8,
+                        "qty_out": 1,
+                        "sell_price": 5000,
+                        "avg_cost": 2941.03,
+                        "theoretical_revenue": 5000,
+                        "cost_out": 2941.03
+                    },
+                    {
+                        "product": "Teh Pucuk",
+                        "previous_stock": 13,
+                        "remaining_stock": 8,
+                        "qty_out": 5,
+                        "sell_price": 5000,
+                        "avg_cost": 2687.5,
+                        "theoretical_revenue": 25000,
+                        "cost_out": 13437.5
+                    },
+                    {
+                        "product": "Ultra Milk",
+                        "previous_stock": 18,
+                        "remaining_stock": 12,
+                        "qty_out": 6,
+                        "sell_price": 8000,
+                        "avg_cost": 4920.63,
+                        "theoretical_revenue": 48000,
+                        "cost_out": 29523.78
+                    }
+                ],
+                "actual_cash_in": 98000,
+                "theoretical_revenue": 87000,
+                "cost_out": 50527.32,
+                "self_payment_diff": 11000,
+                "actual_profit": 47472.68,
+                "note": ""
+            },
+            "created_at": "2026-03-07 05:41:31"
+        },
+        {
+            "id": "69abac505b64b5.38828688",
+            "type": "restock",
+            "date": "2025-11-26",
+            "description": "Restock Cheers",
+            "meta": {
+                "product": "Cheers",
+                "qty": 24,
+                "total_cost": 37000,
+                "unit_cost": 1541.67,
+                "new_avg_cost": 1541.67,
+                "note": ""
+            },
+            "created_at": "2026-03-07 05:40:48"
+        },
+        {
+            "id": "69ab9fe1311583.39182282",
+            "type": "purchase",
+            "date": "2025-11-25",
+            "description": "Pembelian aset",
+            "meta": {
+                "item_name": "Stand Kertas A4",
+                "amount": 23000,
+                "note": ""
+            },
+            "created_at": "2026-03-07 04:47:45"
+        },
+        {
+            "id": "69ab9c975aa884.43951966",
+            "type": "update_stock",
+            "date": "2025-11-23",
+            "description": "Rekap stok keluar \/ self payment",
+            "meta": {
+                "items": [
+                    {
+                        "product": "Cheers",
+                        "previous_stock": 7,
+                        "remaining_stock": 4,
+                        "qty_out": 3,
+                        "sell_price": 3000,
+                        "avg_cost": 1541.67,
+                        "theoretical_revenue": 9000,
+                        "cost_out": 4625.01
+                    },
+                    {
+                        "product": "Floridina",
+                        "previous_stock": 13,
+                        "remaining_stock": 9,
+                        "qty_out": 4,
+                        "sell_price": 5000,
+                        "avg_cost": 2941.03,
+                        "theoretical_revenue": 20000,
+                        "cost_out": 11764.12
+                    },
+                    {
+                        "product": "Teh Pucuk",
+                        "previous_stock": 14,
+                        "remaining_stock": 13,
+                        "qty_out": 1,
+                        "sell_price": 5000,
+                        "avg_cost": 2687.5,
+                        "theoretical_revenue": 5000,
+                        "cost_out": 2687.5
+                    },
+                    {
+                        "product": "Kopi ABC",
+                        "previous_stock": 12,
+                        "remaining_stock": 10,
+                        "qty_out": 2,
+                        "sell_price": 5000,
+                        "avg_cost": 3083.33,
+                        "theoretical_revenue": 10000,
+                        "cost_out": 6166.66
+                    },
+                    {
+                        "product": "Ultra Milk",
+                        "previous_stock": 24,
+                        "remaining_stock": 18,
+                        "qty_out": 6,
+                        "sell_price": 8000,
+                        "avg_cost": 4920.63,
+                        "theoretical_revenue": 48000,
+                        "cost_out": 29523.78
+                    }
+                ],
+                "actual_cash_in": 88000,
+                "theoretical_revenue": 92000,
+                "cost_out": 54767.07,
+                "self_payment_diff": -4000,
+                "actual_profit": 33232.93,
+                "note": ""
+            },
+            "created_at": "2026-03-07 04:33:43"
+        },
+        {
+            "id": "69ab9c264cb6d2.61870742",
+            "type": "restock",
+            "date": "2025-11-19",
+            "description": "Restock Ultra Milk",
+            "meta": {
+                "product": "Ultra Milk",
+                "qty": 24,
+                "total_cost": 118095,
+                "unit_cost": 4920.63,
+                "new_avg_cost": 4920.63,
+                "note": ""
+            },
+            "created_at": "2026-03-07 04:31:50"
+        },
+        {
+            "id": "69ab9c10b05eb9.84754178",
+            "type": "restock",
+            "date": "2025-11-19",
+            "description": "Restock Kopi ABC",
+            "meta": {
+                "product": "Kopi ABC",
+                "qty": 12,
+                "total_cost": 37000,
+                "unit_cost": 3083.33,
+                "new_avg_cost": 3083.33,
+                "note": ""
+            },
+            "created_at": "2026-03-07 04:31:28"
+        },
+        {
+            "id": "69ab9bfe8daf73.75918497",
+            "type": "restock",
+            "date": "2025-11-19",
+            "description": "Restock Floridina",
+            "meta": {
+                "product": "Floridina",
+                "qty": 12,
+                "total_cost": 35150,
+                "unit_cost": 2929.17,
+                "new_avg_cost": 2941.03,
+                "note": ""
+            },
+            "created_at": "2026-03-07 04:31:10"
+        },
+        {
+            "id": "69ab9b91f13d21.45967888",
+            "type": "update_stock",
+            "date": "2025-11-19",
+            "description": "Rekap stok keluar \/ self payment",
+            "meta": {
+                "items": [
+                    {
+                        "product": "Cheers",
+                        "previous_stock": 13,
+                        "remaining_stock": 7,
+                        "qty_out": 6,
+                        "sell_price": 3000,
+                        "avg_cost": 1541.67,
+                        "theoretical_revenue": 18000,
+                        "cost_out": 9250.02
+                    },
+                    {
+                        "product": "Floridina",
+                        "previous_stock": 3,
+                        "remaining_stock": 1,
+                        "qty_out": 2,
+                        "sell_price": 5000,
+                        "avg_cost": 3083.33,
+                        "theoretical_revenue": 10000,
+                        "cost_out": 6166.66
+                    },
+                    {
+                        "product": "Teh Pucuk",
+                        "previous_stock": 18,
+                        "remaining_stock": 14,
+                        "qty_out": 4,
+                        "sell_price": 5000,
+                        "avg_cost": 2687.5,
+                        "theoretical_revenue": 20000,
+                        "cost_out": 10750
+                    }
+                ],
+                "actual_cash_in": 44000,
+                "theoretical_revenue": 48000,
+                "cost_out": 26166.68,
+                "self_payment_diff": -4000,
+                "actual_profit": 17833.32,
+                "note": ""
+            },
+            "created_at": "2026-03-07 04:29:21"
+        },
+        {
+            "id": "69ab9b5e4e8fa3.67021488",
+            "type": "update_stock",
+            "date": "2025-11-10",
+            "description": "Rekap stok keluar \/ self payment",
+            "meta": {
+                "items": [
+                    {
+                        "product": "Cheers",
+                        "previous_stock": 18,
+                        "remaining_stock": 13,
+                        "qty_out": 5,
+                        "sell_price": 3000,
+                        "avg_cost": 1541.67,
+                        "theoretical_revenue": 15000,
+                        "cost_out": 7708.35
+                    },
+                    {
+                        "product": "Floridina",
+                        "previous_stock": 5,
+                        "remaining_stock": 3,
+                        "qty_out": 2,
+                        "sell_price": 5000,
+                        "avg_cost": 3083.33,
+                        "theoretical_revenue": 10000,
+                        "cost_out": 6166.66
+                    },
+                    {
+                        "product": "Teh Pucuk",
+                        "previous_stock": 21,
+                        "remaining_stock": 18,
+                        "qty_out": 3,
+                        "sell_price": 5000,
+                        "avg_cost": 2687.5,
+                        "theoretical_revenue": 15000,
+                        "cost_out": 8062.5
+                    }
+                ],
+                "actual_cash_in": 45000,
+                "theoretical_revenue": 40000,
+                "cost_out": 21937.51,
+                "self_payment_diff": 5000,
+                "actual_profit": 23062.49,
+                "note": ""
+            },
+            "created_at": "2026-03-07 04:28:30"
+        },
+        {
+            "id": "69ab9b26a3ec84.43509067",
+            "type": "update_stock",
+            "date": "2025-11-07",
+            "description": "Rekap stok keluar \/ self payment",
+            "meta": {
+                "items": [
+                    {
+                        "product": "Cheers",
+                        "previous_stock": 24,
+                        "remaining_stock": 18,
+                        "qty_out": 6,
+                        "sell_price": 3000,
+                        "avg_cost": 1541.67,
+                        "theoretical_revenue": 18000,
+                        "cost_out": 9250.02
+                    },
+                    {
+                        "product": "Floridina",
+                        "previous_stock": 6,
+                        "remaining_stock": 5,
+                        "qty_out": 1,
+                        "sell_price": 5000,
+                        "avg_cost": 3083.33,
+                        "theoretical_revenue": 5000,
+                        "cost_out": 3083.33
+                    },
+                    {
+                        "product": "Teh Pucuk",
+                        "previous_stock": 22,
+                        "remaining_stock": 21,
+                        "qty_out": 1,
+                        "sell_price": 5000,
+                        "avg_cost": 2687.5,
+                        "theoretical_revenue": 5000,
+                        "cost_out": 2687.5
+                    }
+                ],
+                "actual_cash_in": 38000,
+                "theoretical_revenue": 28000,
+                "cost_out": 15020.85,
+                "self_payment_diff": 10000,
+                "actual_profit": 22979.15,
+                "note": ""
+            },
+            "created_at": "2026-03-07 04:27:34"
+        },
+        {
+            "id": "69ab9ad43fc874.82267863",
+            "type": "update_stock",
+            "date": "2025-11-04",
+            "description": "Rekap stok keluar \/ self payment",
+            "meta": {
+                "items": [
+                    {
+                        "product": "Floridina",
+                        "previous_stock": 12,
+                        "remaining_stock": 6,
+                        "qty_out": 6,
+                        "sell_price": 5000,
+                        "avg_cost": 3083.33,
+                        "theoretical_revenue": 30000,
+                        "cost_out": 18499.98
+                    },
+                    {
+                        "product": "Teh Pucuk",
+                        "previous_stock": 24,
+                        "remaining_stock": 22,
+                        "qty_out": 2,
+                        "sell_price": 5000,
+                        "avg_cost": 2687.5,
+                        "theoretical_revenue": 10000,
+                        "cost_out": 5375
+                    }
+                ],
+                "actual_cash_in": 25000,
+                "theoretical_revenue": 40000,
+                "cost_out": 23874.98,
+                "self_payment_diff": -15000,
+                "actual_profit": 1125.02,
+                "note": ""
+            },
+            "created_at": "2026-03-07 04:26:12"
+        },
+        {
+            "id": "69ab9aa8cbf021.17514536",
+            "type": "restock",
+            "date": "2025-11-04",
+            "description": "Restock Cheers",
+            "meta": {
+                "product": "Cheers",
+                "qty": 24,
+                "total_cost": 37000,
+                "unit_cost": 1541.67,
+                "new_avg_cost": 1541.67,
+                "note": ""
+            },
+            "created_at": "2026-03-07 04:25:28"
+        },
+        {
+            "id": "69ab9a4de16764.10415278",
+            "type": "restock",
+            "date": "2025-10-31",
+            "description": "Restock Teh Pucuk",
+            "meta": {
+                "product": "Teh Pucuk",
+                "qty": 24,
+                "total_cost": 64500,
+                "unit_cost": 2687.5,
+                "new_avg_cost": 2687.5,
+                "note": ""
+            },
+            "created_at": "2026-03-07 04:23:57"
+        },
+        {
+            "id": "69ab9382590351.04136071",
+            "type": "restock",
+            "date": "2025-10-27",
+            "description": "Restock Floridina",
+            "meta": {
+                "product": "Floridina",
+                "qty": 12,
+                "total_cost": 37000,
+                "unit_cost": 3083.33,
+                "new_avg_cost": 3083.33,
+                "note": ""
+            },
+            "created_at": "2026-03-07 03:54:58"
+        }
+    ]
+}
