@@ -4,8 +4,8 @@
             "cheers": {
                 "name": "Cheers",
                 "sell_price": 3000,
-                "stock": 6,
-                "avg_cost": 1541.67,
+                "stock": 21,
+                "avg_cost": 1777.99,
                 "price_history": [
                     {
                         "effective_date": "2000-01-01",
@@ -19,8 +19,8 @@
             "floridina": {
                 "name": "Floridina",
                 "sell_price": 5000,
-                "stock": 4,
-                "avg_cost": 2443.75,
+                "stock": 0,
+                "avg_cost": 2849.11,
                 "price_history": [
                     {
                         "effective_date": "2000-01-01",
@@ -34,8 +34,8 @@
             "teh_pucuk": {
                 "name": "Teh Pucuk",
                 "sell_price": 5000,
-                "stock": 1,
-                "avg_cost": 2833.33,
+                "stock": 9,
+                "avg_cost": 2940.68,
                 "price_history": [
                     {
                         "effective_date": "2000-01-01",
@@ -49,8 +49,8 @@
             "kopi_abc": {
                 "name": "Kopi ABC",
                 "sell_price": 5000,
-                "stock": 0,
-                "avg_cost": 3083.33,
+                "stock": 1,
+                "avg_cost": 3291.67,
                 "price_history": [
                     {
                         "effective_date": "2000-01-01",
@@ -64,8 +64,8 @@
             "ultra_milk": {
                 "name": "Ultra Milk",
                 "sell_price": 8000,
-                "stock": 33,
-                "avg_cost": 5383.82,
+                "stock": 65,
+                "avg_cost": 5719.24,
                 "price_history": [
                     {
                         "effective_date": "2000-01-01",
@@ -82,44 +82,44 @@
             "cup_8oz": {
                 "name": "Cup 8oz",
                 "unit": "pcs",
-                "stock": 71,
+                "stock": 21,
                 "avg_cost": 375.54
             },
             "sendok_kayu": {
                 "name": "Sendok Kayu",
                 "unit": "pcs",
-                "stock": 71,
+                "stock": 21,
                 "avg_cost": 312.61
             },
             "migelas_renceng": {
                 "name": "MiGelas Renceng",
                 "unit": "pcs",
-                "stock": 0,
-                "avg_cost": 1390
+                "stock": 6,
+                "avg_cost": 895
             },
             "good_day_chococinno": {
                 "name": "Good Day Chococinno",
                 "unit": "pcs",
-                "stock": 8,
-                "avg_cost": 2050
+                "stock": 13,
+                "avg_cost": 1744.44
             },
             "susu_milo": {
                 "name": "Susu Milo",
                 "unit": "pcs",
-                "stock": 3,
-                "avg_cost": 2650
+                "stock": 14,
+                "avg_cost": 1989.13
             },
             "good_day_cappuccino": {
                 "name": "Good Day Cappuccino",
                 "unit": "pcs",
-                "stock": 5,
-                "avg_cost": 2850
+                "stock": 2,
+                "avg_cost": 2383.33
             },
             "energen": {
                 "name": "Energen",
                 "unit": "pcs",
-                "stock": 0,
-                "avg_cost": 2790
+                "stock": 24,
+                "avg_cost": 2050
             }
         },
         "archived_ingredients": [],
@@ -263,17 +263,1709 @@
         "archived_mixed_menus": []
     },
     "summary": {
-        "cash_balance": 341125,
+        "cash_balance": 45127,
         "external_capital": 0,
-        "total_actual_profit": 744896.4600000002,
-        "total_theoretical_revenue": 2778000,
-        "total_actual_revenue": 2408500,
-        "total_self_payment_diff": -369500,
-        "total_operational_expense": 0,
-        "total_restock_cost": 1954586,
-        "total_owner_withdrawal": 37000
+        "total_actual_profit": 1166074.8500000006,
+        "total_theoretical_revenue": 4686000,
+        "total_actual_revenue": 4062500,
+        "total_self_payment_diff": -623500,
+        "total_operational_expense": 16000,
+        "total_restock_cost": 3447584,
+        "total_owner_withdrawal": 478000
     },
     "logs": [
+        {
+            "id": "6a11113fd5c6a8.09371512",
+            "type": "owner_withdrawal",
+            "date": "2026-05-22",
+            "description": "Penarikan ke pemilik (PMK Kota Surabaya)",
+            "meta": {
+                "amount": 401000,
+                "note": "Reimburse keperluan Booth LCI, 347 rb Ganci, 54rb 3 bungkus Keripik Pisang"
+            },
+            "created_at": "2026-05-23 02:30:23"
+        },
+        {
+            "id": "6a110e65cd27e9.07328874",
+            "type": "update_stock",
+            "date": "2026-05-22",
+            "description": "Rekap stok keluar \/ self payment",
+            "meta": {
+                "items": [
+                    {
+                        "product": "Cheers",
+                        "previous_stock": 38,
+                        "remaining_stock": 21,
+                        "qty_out": 17,
+                        "sell_price": 3000,
+                        "sell_price_effective_date": "2000-01-01",
+                        "avg_cost": 1777.99,
+                        "theoretical_revenue": 51000,
+                        "cost_out": 30225.83
+                    },
+                    {
+                        "product": "Floridina",
+                        "previous_stock": 4,
+                        "remaining_stock": 0,
+                        "qty_out": 4,
+                        "sell_price": 5000,
+                        "sell_price_effective_date": "2000-01-01",
+                        "avg_cost": 2849.11,
+                        "theoretical_revenue": 20000,
+                        "cost_out": 11396.44
+                    },
+                    {
+                        "product": "Teh Pucuk",
+                        "previous_stock": 20,
+                        "remaining_stock": 9,
+                        "qty_out": 11,
+                        "sell_price": 5000,
+                        "sell_price_effective_date": "2000-01-01",
+                        "avg_cost": 2940.68,
+                        "theoretical_revenue": 55000,
+                        "cost_out": 32347.48
+                    },
+                    {
+                        "product": "Kopi ABC",
+                        "previous_stock": 9,
+                        "remaining_stock": 1,
+                        "qty_out": 8,
+                        "sell_price": 5000,
+                        "sell_price_effective_date": "2000-01-01",
+                        "avg_cost": 3291.67,
+                        "theoretical_revenue": 40000,
+                        "cost_out": 26333.36
+                    },
+                    {
+                        "product": "Ultra Milk",
+                        "previous_stock": 104,
+                        "remaining_stock": 65,
+                        "qty_out": 39,
+                        "sell_price": 8000,
+                        "sell_price_effective_date": "2000-01-01",
+                        "avg_cost": 5719.24,
+                        "theoretical_revenue": 312000,
+                        "cost_out": 223050.36
+                    }
+                ],
+                "actual_cash_in": 432000,
+                "theoretical_revenue": 503000,
+                "cost_out": 337450.88,
+                "self_payment_diff": -71000,
+                "actual_profit": 94549.12,
+                "mixed_menu_items": [
+                    {
+                        "menu": "Set Gelas (MiGelas)",
+                        "qty_sold": 1,
+                        "sell_price": 5000,
+                        "sell_price_effective_date": "2026-03-15",
+                        "theoretical_revenue": 5000,
+                        "recipe_cost": 2478.15,
+                        "recipe_items": [
+                            {
+                                "ingredient": "MiGelas Renceng",
+                                "ingredient_key": "migelas_renceng",
+                                "unit": "pcs",
+                                "qty_per_menu": 2,
+                                "qty_used": 2,
+                                "avg_cost": 895,
+                                "cost_out": 1790
+                            },
+                            {
+                                "ingredient": "Cup 8oz",
+                                "ingredient_key": "cup_8oz",
+                                "unit": "pcs",
+                                "qty_per_menu": 1,
+                                "qty_used": 1,
+                                "avg_cost": 375.54,
+                                "cost_out": 375.54
+                            },
+                            {
+                                "ingredient": "Sendok Kayu",
+                                "ingredient_key": "sendok_kayu",
+                                "unit": "pcs",
+                                "qty_per_menu": 1,
+                                "qty_used": 1,
+                                "avg_cost": 312.61,
+                                "cost_out": 312.61
+                            }
+                        ]
+                    },
+                    {
+                        "menu": "Set Gelas (Energen)",
+                        "qty_sold": 2,
+                        "sell_price": 5000,
+                        "sell_price_effective_date": "2026-03-15",
+                        "theoretical_revenue": 10000,
+                        "recipe_cost": 5476.3,
+                        "recipe_items": [
+                            {
+                                "ingredient": "Energen",
+                                "ingredient_key": "energen",
+                                "unit": "pcs",
+                                "qty_per_menu": 1,
+                                "qty_used": 2,
+                                "avg_cost": 2050,
+                                "cost_out": 4100
+                            },
+                            {
+                                "ingredient": "Cup 8oz",
+                                "ingredient_key": "cup_8oz",
+                                "unit": "pcs",
+                                "qty_per_menu": 1,
+                                "qty_used": 2,
+                                "avg_cost": 375.54,
+                                "cost_out": 751.08
+                            },
+                            {
+                                "ingredient": "Sendok Kayu",
+                                "ingredient_key": "sendok_kayu",
+                                "unit": "pcs",
+                                "qty_per_menu": 1,
+                                "qty_used": 2,
+                                "avg_cost": 312.61,
+                                "cost_out": 625.22
+                            }
+                        ]
+                    },
+                    {
+                        "menu": "Set Gelas (Good Day Cappuccino)",
+                        "qty_sold": 2,
+                        "sell_price": 5000,
+                        "sell_price_effective_date": "2026-03-15",
+                        "theoretical_revenue": 10000,
+                        "recipe_cost": 6142.96,
+                        "recipe_items": [
+                            {
+                                "ingredient": "Good Day Cappuccino",
+                                "ingredient_key": "good_day_cappuccino",
+                                "unit": "pcs",
+                                "qty_per_menu": 1,
+                                "qty_used": 2,
+                                "avg_cost": 2383.33,
+                                "cost_out": 4766.66
+                            },
+                            {
+                                "ingredient": "Cup 8oz",
+                                "ingredient_key": "cup_8oz",
+                                "unit": "pcs",
+                                "qty_per_menu": 1,
+                                "qty_used": 2,
+                                "avg_cost": 375.54,
+                                "cost_out": 751.08
+                            },
+                            {
+                                "ingredient": "Sendok Kayu",
+                                "ingredient_key": "sendok_kayu",
+                                "unit": "pcs",
+                                "qty_per_menu": 1,
+                                "qty_used": 2,
+                                "avg_cost": 312.61,
+                                "cost_out": 625.22
+                            }
+                        ]
+                    }
+                ],
+                "ingredient_usage": [
+                    {
+                        "ingredient": "MiGelas Renceng",
+                        "unit": "pcs",
+                        "qty_used": 2,
+                        "cost_out": 1790,
+                        "previous_stock": 8,
+                        "remaining_stock": 6,
+                        "avg_cost": 895
+                    },
+                    {
+                        "ingredient": "Cup 8oz",
+                        "unit": "pcs",
+                        "qty_used": 5,
+                        "cost_out": 1877.7,
+                        "previous_stock": 26,
+                        "remaining_stock": 21,
+                        "avg_cost": 375.54
+                    },
+                    {
+                        "ingredient": "Sendok Kayu",
+                        "unit": "pcs",
+                        "qty_used": 5,
+                        "cost_out": 1563.05,
+                        "previous_stock": 26,
+                        "remaining_stock": 21,
+                        "avg_cost": 312.61
+                    },
+                    {
+                        "ingredient": "Energen",
+                        "unit": "pcs",
+                        "qty_used": 2,
+                        "cost_out": 4100,
+                        "previous_stock": 26,
+                        "remaining_stock": 24,
+                        "avg_cost": 2050
+                    },
+                    {
+                        "ingredient": "Good Day Cappuccino",
+                        "unit": "pcs",
+                        "qty_used": 2,
+                        "cost_out": 4766.66,
+                        "previous_stock": 4,
+                        "remaining_stock": 2,
+                        "avg_cost": 2383.33
+                    }
+                ],
+                "note": ""
+            },
+            "created_at": "2026-05-23 02:18:13"
+        },
+        {
+            "id": "6a0c9b484f5a82.54144944",
+            "type": "restock",
+            "date": "2026-05-14",
+            "description": "Restock Ultra Milk",
+            "meta": {
+                "product": "Ultra Milk",
+                "qty": 48,
+                "total_cost": 270400,
+                "unit_cost": 5633.33,
+                "new_avg_cost": 5719.24,
+                "note": ""
+            },
+            "created_at": "2026-05-19 17:18:00"
+        },
+        {
+            "id": "6a008a68249957.86561602",
+            "type": "owner_withdrawal",
+            "date": "2026-05-07",
+            "description": "Penarikan ke pemilik (PMK Kota Surabaya)",
+            "meta": {
+                "amount": 40000,
+                "note": "Konsumsi Rapat LCI"
+            },
+            "created_at": "2026-05-10 13:38:48"
+        },
+        {
+            "id": "6a0089f2661901.81001921",
+            "type": "update_stock",
+            "date": "2026-05-10",
+            "description": "Rekap stok keluar \/ self payment",
+            "meta": {
+                "items": [
+                    {
+                        "product": "Cheers",
+                        "previous_stock": 66,
+                        "remaining_stock": 38,
+                        "qty_out": 28,
+                        "sell_price": 3000,
+                        "sell_price_effective_date": "2000-01-01",
+                        "avg_cost": 1777.99,
+                        "theoretical_revenue": 84000,
+                        "cost_out": 49783.72
+                    },
+                    {
+                        "product": "Floridina",
+                        "previous_stock": 11,
+                        "remaining_stock": 4,
+                        "qty_out": 7,
+                        "sell_price": 5000,
+                        "sell_price_effective_date": "2000-01-01",
+                        "avg_cost": 2849.11,
+                        "theoretical_revenue": 35000,
+                        "cost_out": 19943.77
+                    },
+                    {
+                        "product": "Teh Pucuk",
+                        "previous_stock": 26,
+                        "remaining_stock": 20,
+                        "qty_out": 6,
+                        "sell_price": 5000,
+                        "sell_price_effective_date": "2000-01-01",
+                        "avg_cost": 2940.68,
+                        "theoretical_revenue": 30000,
+                        "cost_out": 17644.08
+                    },
+                    {
+                        "product": "Kopi ABC",
+                        "previous_stock": 11,
+                        "remaining_stock": 9,
+                        "qty_out": 2,
+                        "sell_price": 5000,
+                        "sell_price_effective_date": "2000-01-01",
+                        "avg_cost": 3291.67,
+                        "theoretical_revenue": 10000,
+                        "cost_out": 6583.34
+                    },
+                    {
+                        "product": "Ultra Milk",
+                        "previous_stock": 82,
+                        "remaining_stock": 56,
+                        "qty_out": 26,
+                        "sell_price": 8000,
+                        "sell_price_effective_date": "2000-01-01",
+                        "avg_cost": 5792.87,
+                        "theoretical_revenue": 208000,
+                        "cost_out": 150614.62
+                    }
+                ],
+                "actual_cash_in": 366000,
+                "theoretical_revenue": 437000,
+                "cost_out": 283350.52,
+                "self_payment_diff": -71000,
+                "actual_profit": 82649.48,
+                "mixed_menu_items": [
+                    {
+                        "menu": "Set Gelas (MiGelas)",
+                        "qty_sold": 2,
+                        "sell_price": 5000,
+                        "sell_price_effective_date": "2026-03-15",
+                        "theoretical_revenue": 10000,
+                        "recipe_cost": 4956.3,
+                        "recipe_items": [
+                            {
+                                "ingredient": "MiGelas Renceng",
+                                "ingredient_key": "migelas_renceng",
+                                "unit": "pcs",
+                                "qty_per_menu": 2,
+                                "qty_used": 4,
+                                "avg_cost": 895,
+                                "cost_out": 3580
+                            },
+                            {
+                                "ingredient": "Cup 8oz",
+                                "ingredient_key": "cup_8oz",
+                                "unit": "pcs",
+                                "qty_per_menu": 1,
+                                "qty_used": 2,
+                                "avg_cost": 375.54,
+                                "cost_out": 751.08
+                            },
+                            {
+                                "ingredient": "Sendok Kayu",
+                                "ingredient_key": "sendok_kayu",
+                                "unit": "pcs",
+                                "qty_per_menu": 1,
+                                "qty_used": 2,
+                                "avg_cost": 312.61,
+                                "cost_out": 625.22
+                            }
+                        ]
+                    },
+                    {
+                        "menu": "Set Gelas (Energen)",
+                        "qty_sold": 6,
+                        "sell_price": 5000,
+                        "sell_price_effective_date": "2026-03-15",
+                        "theoretical_revenue": 30000,
+                        "recipe_cost": 16428.9,
+                        "recipe_items": [
+                            {
+                                "ingredient": "Energen",
+                                "ingredient_key": "energen",
+                                "unit": "pcs",
+                                "qty_per_menu": 1,
+                                "qty_used": 6,
+                                "avg_cost": 2050,
+                                "cost_out": 12300
+                            },
+                            {
+                                "ingredient": "Cup 8oz",
+                                "ingredient_key": "cup_8oz",
+                                "unit": "pcs",
+                                "qty_per_menu": 1,
+                                "qty_used": 6,
+                                "avg_cost": 375.54,
+                                "cost_out": 2253.24
+                            },
+                            {
+                                "ingredient": "Sendok Kayu",
+                                "ingredient_key": "sendok_kayu",
+                                "unit": "pcs",
+                                "qty_per_menu": 1,
+                                "qty_used": 6,
+                                "avg_cost": 312.61,
+                                "cost_out": 1875.66
+                            }
+                        ]
+                    },
+                    {
+                        "menu": "Set Gelas (Good Day Cappuccino)",
+                        "qty_sold": 4,
+                        "sell_price": 5000,
+                        "sell_price_effective_date": "2026-03-15",
+                        "theoretical_revenue": 20000,
+                        "recipe_cost": 12285.92,
+                        "recipe_items": [
+                            {
+                                "ingredient": "Good Day Cappuccino",
+                                "ingredient_key": "good_day_cappuccino",
+                                "unit": "pcs",
+                                "qty_per_menu": 1,
+                                "qty_used": 4,
+                                "avg_cost": 2383.33,
+                                "cost_out": 9533.32
+                            },
+                            {
+                                "ingredient": "Cup 8oz",
+                                "ingredient_key": "cup_8oz",
+                                "unit": "pcs",
+                                "qty_per_menu": 1,
+                                "qty_used": 4,
+                                "avg_cost": 375.54,
+                                "cost_out": 1502.16
+                            },
+                            {
+                                "ingredient": "Sendok Kayu",
+                                "ingredient_key": "sendok_kayu",
+                                "unit": "pcs",
+                                "qty_per_menu": 1,
+                                "qty_used": 4,
+                                "avg_cost": 312.61,
+                                "cost_out": 1250.44
+                            }
+                        ]
+                    },
+                    {
+                        "menu": "Set Gelas (Susu Milo)",
+                        "qty_sold": 1,
+                        "sell_price": 5000,
+                        "sell_price_effective_date": "2026-03-15",
+                        "theoretical_revenue": 5000,
+                        "recipe_cost": 2677.28,
+                        "recipe_items": [
+                            {
+                                "ingredient": "Susu Milo",
+                                "ingredient_key": "susu_milo",
+                                "unit": "pcs",
+                                "qty_per_menu": 1,
+                                "qty_used": 1,
+                                "avg_cost": 1989.13,
+                                "cost_out": 1989.13
+                            },
+                            {
+                                "ingredient": "Cup 8oz",
+                                "ingredient_key": "cup_8oz",
+                                "unit": "pcs",
+                                "qty_per_menu": 1,
+                                "qty_used": 1,
+                                "avg_cost": 375.54,
+                                "cost_out": 375.54
+                            },
+                            {
+                                "ingredient": "Sendok Kayu",
+                                "ingredient_key": "sendok_kayu",
+                                "unit": "pcs",
+                                "qty_per_menu": 1,
+                                "qty_used": 1,
+                                "avg_cost": 312.61,
+                                "cost_out": 312.61
+                            }
+                        ]
+                    },
+                    {
+                        "menu": "Set Gelas (Good Day Chococinno)",
+                        "qty_sold": 1,
+                        "sell_price": 5000,
+                        "sell_price_effective_date": "2026-03-15",
+                        "theoretical_revenue": 5000,
+                        "recipe_cost": 2432.59,
+                        "recipe_items": [
+                            {
+                                "ingredient": "Good Day Chococinno",
+                                "ingredient_key": "good_day_chococinno",
+                                "unit": "pcs",
+                                "qty_per_menu": 1,
+                                "qty_used": 1,
+                                "avg_cost": 1744.44,
+                                "cost_out": 1744.44
+                            },
+                            {
+                                "ingredient": "Cup 8oz",
+                                "ingredient_key": "cup_8oz",
+                                "unit": "pcs",
+                                "qty_per_menu": 1,
+                                "qty_used": 1,
+                                "avg_cost": 375.54,
+                                "cost_out": 375.54
+                            },
+                            {
+                                "ingredient": "Sendok Kayu",
+                                "ingredient_key": "sendok_kayu",
+                                "unit": "pcs",
+                                "qty_per_menu": 1,
+                                "qty_used": 1,
+                                "avg_cost": 312.61,
+                                "cost_out": 312.61
+                            }
+                        ]
+                    }
+                ],
+                "ingredient_usage": [
+                    {
+                        "ingredient": "MiGelas Renceng",
+                        "unit": "pcs",
+                        "qty_used": 4,
+                        "cost_out": 3580,
+                        "previous_stock": 12,
+                        "remaining_stock": 8,
+                        "avg_cost": 895
+                    },
+                    {
+                        "ingredient": "Cup 8oz",
+                        "unit": "pcs",
+                        "qty_used": 14,
+                        "cost_out": 5257.56,
+                        "previous_stock": 40,
+                        "remaining_stock": 26,
+                        "avg_cost": 375.54
+                    },
+                    {
+                        "ingredient": "Sendok Kayu",
+                        "unit": "pcs",
+                        "qty_used": 14,
+                        "cost_out": 4376.54,
+                        "previous_stock": 40,
+                        "remaining_stock": 26,
+                        "avg_cost": 312.61
+                    },
+                    {
+                        "ingredient": "Energen",
+                        "unit": "pcs",
+                        "qty_used": 6,
+                        "cost_out": 12300,
+                        "previous_stock": 32,
+                        "remaining_stock": 26,
+                        "avg_cost": 2050
+                    },
+                    {
+                        "ingredient": "Good Day Cappuccino",
+                        "unit": "pcs",
+                        "qty_used": 4,
+                        "cost_out": 9533.32,
+                        "previous_stock": 8,
+                        "remaining_stock": 4,
+                        "avg_cost": 2383.33
+                    },
+                    {
+                        "ingredient": "Susu Milo",
+                        "unit": "pcs",
+                        "qty_used": 1,
+                        "cost_out": 1989.13,
+                        "previous_stock": 15,
+                        "remaining_stock": 14,
+                        "avg_cost": 1989.13
+                    },
+                    {
+                        "ingredient": "Good Day Chococinno",
+                        "unit": "pcs",
+                        "qty_used": 1,
+                        "cost_out": 1744.44,
+                        "previous_stock": 14,
+                        "remaining_stock": 13,
+                        "avg_cost": 1744.44
+                    }
+                ],
+                "note": ""
+            },
+            "created_at": "2026-05-10 13:36:50"
+        },
+        {
+            "id": "6a0088e46e71e8.85897204",
+            "type": "restock",
+            "date": "2026-05-10",
+            "description": "Restock Teh Pucuk",
+            "meta": {
+                "product": "Teh Pucuk",
+                "qty": 24,
+                "total_cost": 70423,
+                "unit_cost": 2934.29,
+                "new_avg_cost": 2940.68,
+                "note": ""
+            },
+            "created_at": "2026-05-10 13:32:20"
+        },
+        {
+            "id": "69f418cb652c52.90922989",
+            "type": "restock",
+            "date": "2026-04-30",
+            "description": "Restock Ultra Milk",
+            "meta": {
+                "product": "Ultra Milk",
+                "qty": 24,
+                "total_cost": 138800,
+                "unit_cost": 5783.33,
+                "new_avg_cost": 5792.87,
+                "note": ""
+            },
+            "created_at": "2026-05-01 03:06:51"
+        },
+        {
+            "id": "69f418ab8d71b2.21277971",
+            "type": "restock",
+            "date": "2026-04-27",
+            "description": "Restock Ultra Milk",
+            "meta": {
+                "product": "Ultra Milk",
+                "qty": 24,
+                "total_cost": 137478,
+                "unit_cost": 5728.25,
+                "new_avg_cost": 5796.82,
+                "note": ""
+            },
+            "created_at": "2026-05-01 03:06:19"
+        },
+        {
+            "id": "69f4182369cda8.93960875",
+            "type": "update_stock",
+            "date": "2026-04-30",
+            "description": "Rekap stok keluar \/ self payment",
+            "meta": {
+                "items": [
+                    {
+                        "product": "Cheers",
+                        "previous_stock": 77,
+                        "remaining_stock": 66,
+                        "qty_out": 11,
+                        "sell_price": 3000,
+                        "sell_price_effective_date": "2000-01-01",
+                        "avg_cost": 1777.99,
+                        "theoretical_revenue": 33000,
+                        "cost_out": 19557.89
+                    },
+                    {
+                        "product": "Floridina",
+                        "previous_stock": 16,
+                        "remaining_stock": 11,
+                        "qty_out": 5,
+                        "sell_price": 5000,
+                        "sell_price_effective_date": "2000-01-01",
+                        "avg_cost": 2849.11,
+                        "theoretical_revenue": 25000,
+                        "cost_out": 14245.55
+                    },
+                    {
+                        "product": "Teh Pucuk",
+                        "previous_stock": 9,
+                        "remaining_stock": 2,
+                        "qty_out": 7,
+                        "sell_price": 5000,
+                        "sell_price_effective_date": "2000-01-01",
+                        "avg_cost": 3017.33,
+                        "theoretical_revenue": 35000,
+                        "cost_out": 21121.31
+                    },
+                    {
+                        "product": "Kopi ABC",
+                        "previous_stock": 12,
+                        "remaining_stock": 11,
+                        "qty_out": 1,
+                        "sell_price": 5000,
+                        "sell_price_effective_date": "2000-01-01",
+                        "avg_cost": 3291.67,
+                        "theoretical_revenue": 5000,
+                        "cost_out": 3291.67
+                    },
+                    {
+                        "product": "Ultra Milk",
+                        "previous_stock": 46,
+                        "remaining_stock": 34,
+                        "qty_out": 12,
+                        "sell_price": 8000,
+                        "sell_price_effective_date": "2000-01-01",
+                        "avg_cost": 5845.22,
+                        "theoretical_revenue": 96000,
+                        "cost_out": 70142.64
+                    }
+                ],
+                "actual_cash_in": 175000,
+                "theoretical_revenue": 214000,
+                "cost_out": 139657.45,
+                "self_payment_diff": -39000,
+                "actual_profit": 35342.55,
+                "mixed_menu_items": [
+                    {
+                        "menu": "Set Gelas (MiGelas)",
+                        "qty_sold": 1,
+                        "sell_price": 5000,
+                        "sell_price_effective_date": "2026-03-15",
+                        "theoretical_revenue": 5000,
+                        "recipe_cost": 2478.15,
+                        "recipe_items": [
+                            {
+                                "ingredient": "MiGelas Renceng",
+                                "ingredient_key": "migelas_renceng",
+                                "unit": "pcs",
+                                "qty_per_menu": 2,
+                                "qty_used": 2,
+                                "avg_cost": 895,
+                                "cost_out": 1790
+                            },
+                            {
+                                "ingredient": "Cup 8oz",
+                                "ingredient_key": "cup_8oz",
+                                "unit": "pcs",
+                                "qty_per_menu": 1,
+                                "qty_used": 1,
+                                "avg_cost": 375.54,
+                                "cost_out": 375.54
+                            },
+                            {
+                                "ingredient": "Sendok Kayu",
+                                "ingredient_key": "sendok_kayu",
+                                "unit": "pcs",
+                                "qty_per_menu": 1,
+                                "qty_used": 1,
+                                "avg_cost": 312.61,
+                                "cost_out": 312.61
+                            }
+                        ]
+                    },
+                    {
+                        "menu": "Set Gelas (Good Day Cappuccino)",
+                        "qty_sold": 2,
+                        "sell_price": 5000,
+                        "sell_price_effective_date": "2026-03-15",
+                        "theoretical_revenue": 10000,
+                        "recipe_cost": 6142.96,
+                        "recipe_items": [
+                            {
+                                "ingredient": "Good Day Cappuccino",
+                                "ingredient_key": "good_day_cappuccino",
+                                "unit": "pcs",
+                                "qty_per_menu": 1,
+                                "qty_used": 2,
+                                "avg_cost": 2383.33,
+                                "cost_out": 4766.66
+                            },
+                            {
+                                "ingredient": "Cup 8oz",
+                                "ingredient_key": "cup_8oz",
+                                "unit": "pcs",
+                                "qty_per_menu": 1,
+                                "qty_used": 2,
+                                "avg_cost": 375.54,
+                                "cost_out": 751.08
+                            },
+                            {
+                                "ingredient": "Sendok Kayu",
+                                "ingredient_key": "sendok_kayu",
+                                "unit": "pcs",
+                                "qty_per_menu": 1,
+                                "qty_used": 2,
+                                "avg_cost": 312.61,
+                                "cost_out": 625.22
+                            }
+                        ]
+                    },
+                    {
+                        "menu": "Set Gelas (Susu Milo)",
+                        "qty_sold": 1,
+                        "sell_price": 5000,
+                        "sell_price_effective_date": "2026-03-15",
+                        "theoretical_revenue": 5000,
+                        "recipe_cost": 2677.28,
+                        "recipe_items": [
+                            {
+                                "ingredient": "Susu Milo",
+                                "ingredient_key": "susu_milo",
+                                "unit": "pcs",
+                                "qty_per_menu": 1,
+                                "qty_used": 1,
+                                "avg_cost": 1989.13,
+                                "cost_out": 1989.13
+                            },
+                            {
+                                "ingredient": "Cup 8oz",
+                                "ingredient_key": "cup_8oz",
+                                "unit": "pcs",
+                                "qty_per_menu": 1,
+                                "qty_used": 1,
+                                "avg_cost": 375.54,
+                                "cost_out": 375.54
+                            },
+                            {
+                                "ingredient": "Sendok Kayu",
+                                "ingredient_key": "sendok_kayu",
+                                "unit": "pcs",
+                                "qty_per_menu": 1,
+                                "qty_used": 1,
+                                "avg_cost": 312.61,
+                                "cost_out": 312.61
+                            }
+                        ]
+                    }
+                ],
+                "ingredient_usage": [
+                    {
+                        "ingredient": "MiGelas Renceng",
+                        "unit": "pcs",
+                        "qty_used": 2,
+                        "cost_out": 1790,
+                        "previous_stock": 14,
+                        "remaining_stock": 12,
+                        "avg_cost": 895
+                    },
+                    {
+                        "ingredient": "Cup 8oz",
+                        "unit": "pcs",
+                        "qty_used": 4,
+                        "cost_out": 1502.16,
+                        "previous_stock": 44,
+                        "remaining_stock": 40,
+                        "avg_cost": 375.54
+                    },
+                    {
+                        "ingredient": "Sendok Kayu",
+                        "unit": "pcs",
+                        "qty_used": 4,
+                        "cost_out": 1250.44,
+                        "previous_stock": 44,
+                        "remaining_stock": 40,
+                        "avg_cost": 312.61
+                    },
+                    {
+                        "ingredient": "Good Day Cappuccino",
+                        "unit": "pcs",
+                        "qty_used": 2,
+                        "cost_out": 4766.66,
+                        "previous_stock": 10,
+                        "remaining_stock": 8,
+                        "avg_cost": 2383.33
+                    },
+                    {
+                        "ingredient": "Susu Milo",
+                        "unit": "pcs",
+                        "qty_used": 1,
+                        "cost_out": 1989.13,
+                        "previous_stock": 16,
+                        "remaining_stock": 15,
+                        "avg_cost": 1989.13
+                    }
+                ],
+                "note": ""
+            },
+            "created_at": "2026-05-01 03:04:03"
+        },
+        {
+            "id": "69ec27e0f2c662.08929130",
+            "type": "restock",
+            "date": "2026-04-25",
+            "description": "Restock Cheers",
+            "meta": {
+                "product": "Cheers",
+                "qty": 72,
+                "total_cost": 129197,
+                "unit_cost": 1794.4,
+                "new_avg_cost": 1777.99,
+                "note": ""
+            },
+            "created_at": "2026-04-25 02:33:04"
+        },
+        {
+            "id": "69ec210cc5f550.53686915",
+            "type": "restock",
+            "date": "2026-04-24",
+            "description": "Restock Ultra Milk",
+            "meta": {
+                "product": "Ultra Milk",
+                "qty": 23,
+                "total_cost": 140000,
+                "unit_cost": 6086.96,
+                "new_avg_cost": 5845.22,
+                "note": ""
+            },
+            "created_at": "2026-04-25 02:03:56"
+        },
+        {
+            "id": "69eb4ffb916ab3.58281559",
+            "type": "update_stock",
+            "date": "2026-04-24",
+            "description": "Rekap stok keluar \/ self payment",
+            "meta": {
+                "items": [
+                    {
+                        "product": "Cheers",
+                        "previous_stock": 41,
+                        "remaining_stock": 5,
+                        "qty_out": 36,
+                        "sell_price": 3000,
+                        "sell_price_effective_date": "2000-01-01",
+                        "avg_cost": 1541.67,
+                        "theoretical_revenue": 108000,
+                        "cost_out": 55500.12
+                    },
+                    {
+                        "product": "Floridina",
+                        "previous_stock": 21,
+                        "remaining_stock": 16,
+                        "qty_out": 5,
+                        "sell_price": 5000,
+                        "sell_price_effective_date": "2000-01-01",
+                        "avg_cost": 2849.11,
+                        "theoretical_revenue": 25000,
+                        "cost_out": 14245.55
+                    },
+                    {
+                        "product": "Teh Pucuk",
+                        "previous_stock": 22,
+                        "remaining_stock": 9,
+                        "qty_out": 13,
+                        "sell_price": 5000,
+                        "sell_price_effective_date": "2000-01-01",
+                        "avg_cost": 3017.33,
+                        "theoretical_revenue": 65000,
+                        "cost_out": 39225.29
+                    },
+                    {
+                        "product": "Kopi ABC",
+                        "previous_stock": 18,
+                        "remaining_stock": 12,
+                        "qty_out": 6,
+                        "sell_price": 5000,
+                        "sell_price_effective_date": "2000-01-01",
+                        "avg_cost": 3291.67,
+                        "theoretical_revenue": 30000,
+                        "cost_out": 19750.02
+                    },
+                    {
+                        "product": "Ultra Milk",
+                        "previous_stock": 35,
+                        "remaining_stock": 23,
+                        "qty_out": 12,
+                        "sell_price": 8000,
+                        "sell_price_effective_date": "2000-01-01",
+                        "avg_cost": 5603.49,
+                        "theoretical_revenue": 96000,
+                        "cost_out": 67241.88
+                    }
+                ],
+                "actual_cash_in": 331000,
+                "theoretical_revenue": 389000,
+                "cost_out": 230545.31,
+                "self_payment_diff": -58000,
+                "actual_profit": 100454.69,
+                "mixed_menu_items": [
+                    {
+                        "menu": "Set Gelas (MiGelas)",
+                        "qty_sold": 2,
+                        "sell_price": 5000,
+                        "sell_price_effective_date": "2026-03-15",
+                        "theoretical_revenue": 10000,
+                        "recipe_cost": 4956.3,
+                        "recipe_items": [
+                            {
+                                "ingredient": "MiGelas Renceng",
+                                "ingredient_key": "migelas_renceng",
+                                "unit": "pcs",
+                                "qty_per_menu": 2,
+                                "qty_used": 4,
+                                "avg_cost": 895,
+                                "cost_out": 3580
+                            },
+                            {
+                                "ingredient": "Cup 8oz",
+                                "ingredient_key": "cup_8oz",
+                                "unit": "pcs",
+                                "qty_per_menu": 1,
+                                "qty_used": 2,
+                                "avg_cost": 375.54,
+                                "cost_out": 751.08
+                            },
+                            {
+                                "ingredient": "Sendok Kayu",
+                                "ingredient_key": "sendok_kayu",
+                                "unit": "pcs",
+                                "qty_per_menu": 1,
+                                "qty_used": 2,
+                                "avg_cost": 312.61,
+                                "cost_out": 625.22
+                            }
+                        ]
+                    },
+                    {
+                        "menu": "Set Gelas (Energen)",
+                        "qty_sold": 2,
+                        "sell_price": 5000,
+                        "sell_price_effective_date": "2026-03-15",
+                        "theoretical_revenue": 10000,
+                        "recipe_cost": 5476.3,
+                        "recipe_items": [
+                            {
+                                "ingredient": "Energen",
+                                "ingredient_key": "energen",
+                                "unit": "pcs",
+                                "qty_per_menu": 1,
+                                "qty_used": 2,
+                                "avg_cost": 2050,
+                                "cost_out": 4100
+                            },
+                            {
+                                "ingredient": "Cup 8oz",
+                                "ingredient_key": "cup_8oz",
+                                "unit": "pcs",
+                                "qty_per_menu": 1,
+                                "qty_used": 2,
+                                "avg_cost": 375.54,
+                                "cost_out": 751.08
+                            },
+                            {
+                                "ingredient": "Sendok Kayu",
+                                "ingredient_key": "sendok_kayu",
+                                "unit": "pcs",
+                                "qty_per_menu": 1,
+                                "qty_used": 2,
+                                "avg_cost": 312.61,
+                                "cost_out": 625.22
+                            }
+                        ]
+                    },
+                    {
+                        "menu": "Set Gelas (Good Day Cappuccino)",
+                        "qty_sold": 2,
+                        "sell_price": 5000,
+                        "sell_price_effective_date": "2026-03-15",
+                        "theoretical_revenue": 10000,
+                        "recipe_cost": 6142.96,
+                        "recipe_items": [
+                            {
+                                "ingredient": "Good Day Cappuccino",
+                                "ingredient_key": "good_day_cappuccino",
+                                "unit": "pcs",
+                                "qty_per_menu": 1,
+                                "qty_used": 2,
+                                "avg_cost": 2383.33,
+                                "cost_out": 4766.66
+                            },
+                            {
+                                "ingredient": "Cup 8oz",
+                                "ingredient_key": "cup_8oz",
+                                "unit": "pcs",
+                                "qty_per_menu": 1,
+                                "qty_used": 2,
+                                "avg_cost": 375.54,
+                                "cost_out": 751.08
+                            },
+                            {
+                                "ingredient": "Sendok Kayu",
+                                "ingredient_key": "sendok_kayu",
+                                "unit": "pcs",
+                                "qty_per_menu": 1,
+                                "qty_used": 2,
+                                "avg_cost": 312.61,
+                                "cost_out": 625.22
+                            }
+                        ]
+                    },
+                    {
+                        "menu": "Set Gelas (Susu Milo)",
+                        "qty_sold": 4,
+                        "sell_price": 5000,
+                        "sell_price_effective_date": "2026-03-15",
+                        "theoretical_revenue": 20000,
+                        "recipe_cost": 10709.12,
+                        "recipe_items": [
+                            {
+                                "ingredient": "Susu Milo",
+                                "ingredient_key": "susu_milo",
+                                "unit": "pcs",
+                                "qty_per_menu": 1,
+                                "qty_used": 4,
+                                "avg_cost": 1989.13,
+                                "cost_out": 7956.52
+                            },
+                            {
+                                "ingredient": "Cup 8oz",
+                                "ingredient_key": "cup_8oz",
+                                "unit": "pcs",
+                                "qty_per_menu": 1,
+                                "qty_used": 4,
+                                "avg_cost": 375.54,
+                                "cost_out": 1502.16
+                            },
+                            {
+                                "ingredient": "Sendok Kayu",
+                                "ingredient_key": "sendok_kayu",
+                                "unit": "pcs",
+                                "qty_per_menu": 1,
+                                "qty_used": 4,
+                                "avg_cost": 312.61,
+                                "cost_out": 1250.44
+                            }
+                        ]
+                    },
+                    {
+                        "menu": "Set Gelas (Good Day Chococinno)",
+                        "qty_sold": 3,
+                        "sell_price": 5000,
+                        "sell_price_effective_date": "2026-03-15",
+                        "theoretical_revenue": 15000,
+                        "recipe_cost": 7297.77,
+                        "recipe_items": [
+                            {
+                                "ingredient": "Good Day Chococinno",
+                                "ingredient_key": "good_day_chococinno",
+                                "unit": "pcs",
+                                "qty_per_menu": 1,
+                                "qty_used": 3,
+                                "avg_cost": 1744.44,
+                                "cost_out": 5233.32
+                            },
+                            {
+                                "ingredient": "Cup 8oz",
+                                "ingredient_key": "cup_8oz",
+                                "unit": "pcs",
+                                "qty_per_menu": 1,
+                                "qty_used": 3,
+                                "avg_cost": 375.54,
+                                "cost_out": 1126.62
+                            },
+                            {
+                                "ingredient": "Sendok Kayu",
+                                "ingredient_key": "sendok_kayu",
+                                "unit": "pcs",
+                                "qty_per_menu": 1,
+                                "qty_used": 3,
+                                "avg_cost": 312.61,
+                                "cost_out": 937.83
+                            }
+                        ]
+                    }
+                ],
+                "ingredient_usage": [
+                    {
+                        "ingredient": "MiGelas Renceng",
+                        "unit": "pcs",
+                        "qty_used": 4,
+                        "cost_out": 3580,
+                        "previous_stock": 18,
+                        "remaining_stock": 14,
+                        "avg_cost": 895
+                    },
+                    {
+                        "ingredient": "Cup 8oz",
+                        "unit": "pcs",
+                        "qty_used": 13,
+                        "cost_out": 4882.02,
+                        "previous_stock": 57,
+                        "remaining_stock": 44,
+                        "avg_cost": 375.54
+                    },
+                    {
+                        "ingredient": "Sendok Kayu",
+                        "unit": "pcs",
+                        "qty_used": 13,
+                        "cost_out": 4063.93,
+                        "previous_stock": 57,
+                        "remaining_stock": 44,
+                        "avg_cost": 312.61
+                    },
+                    {
+                        "ingredient": "Energen",
+                        "unit": "pcs",
+                        "qty_used": 2,
+                        "cost_out": 4100,
+                        "previous_stock": 34,
+                        "remaining_stock": 32,
+                        "avg_cost": 2050
+                    },
+                    {
+                        "ingredient": "Good Day Cappuccino",
+                        "unit": "pcs",
+                        "qty_used": 2,
+                        "cost_out": 4766.66,
+                        "previous_stock": 12,
+                        "remaining_stock": 10,
+                        "avg_cost": 2383.33
+                    },
+                    {
+                        "ingredient": "Susu Milo",
+                        "unit": "pcs",
+                        "qty_used": 4,
+                        "cost_out": 7956.52,
+                        "previous_stock": 20,
+                        "remaining_stock": 16,
+                        "avg_cost": 1989.13
+                    },
+                    {
+                        "ingredient": "Good Day Chococinno",
+                        "unit": "pcs",
+                        "qty_used": 3,
+                        "cost_out": 5233.32,
+                        "previous_stock": 17,
+                        "remaining_stock": 14,
+                        "avg_cost": 1744.44
+                    }
+                ],
+                "note": ""
+            },
+            "created_at": "2026-04-24 11:11:55"
+        },
+        {
+            "id": "69e31cb990a138.98527115",
+            "type": "restock",
+            "date": "2026-04-17",
+            "description": "Restock Ultra Milk",
+            "meta": {
+                "product": "Ultra Milk",
+                "qty": 24,
+                "total_cost": 136900,
+                "unit_cost": 5704.17,
+                "new_avg_cost": 5603.49,
+                "note": ""
+            },
+            "created_at": "2026-04-18 05:55:05"
+        },
+        {
+            "id": "69db584249a6f1.57581125",
+            "type": "update_stock",
+            "date": "2026-04-12",
+            "description": "Rekap stok keluar \/ self payment",
+            "meta": {
+                "items": [
+                    {
+                        "product": "Cheers",
+                        "previous_stock": 54,
+                        "remaining_stock": 41,
+                        "qty_out": 13,
+                        "sell_price": 3000,
+                        "sell_price_effective_date": "2000-01-01",
+                        "avg_cost": 1541.67,
+                        "theoretical_revenue": 39000,
+                        "cost_out": 20041.71
+                    },
+                    {
+                        "product": "Floridina",
+                        "previous_stock": 28,
+                        "remaining_stock": 21,
+                        "qty_out": 7,
+                        "sell_price": 5000,
+                        "sell_price_effective_date": "2000-01-01",
+                        "avg_cost": 2849.11,
+                        "theoretical_revenue": 35000,
+                        "cost_out": 19943.77
+                    },
+                    {
+                        "product": "Teh Pucuk",
+                        "previous_stock": 25,
+                        "remaining_stock": 22,
+                        "qty_out": 3,
+                        "sell_price": 5000,
+                        "sell_price_effective_date": "2000-01-01",
+                        "avg_cost": 3017.33,
+                        "theoretical_revenue": 15000,
+                        "cost_out": 9051.99
+                    },
+                    {
+                        "product": "Kopi ABC",
+                        "previous_stock": 24,
+                        "remaining_stock": 18,
+                        "qty_out": 6,
+                        "sell_price": 5000,
+                        "sell_price_effective_date": "2000-01-01",
+                        "avg_cost": 3291.67,
+                        "theoretical_revenue": 30000,
+                        "cost_out": 19750.02
+                    },
+                    {
+                        "product": "Ultra Milk",
+                        "previous_stock": 33,
+                        "remaining_stock": 11,
+                        "qty_out": 22,
+                        "sell_price": 8000,
+                        "sell_price_effective_date": "2000-01-01",
+                        "avg_cost": 5383.82,
+                        "theoretical_revenue": 176000,
+                        "cost_out": 118444.04
+                    }
+                ],
+                "actual_cash_in": 350000,
+                "theoretical_revenue": 365000,
+                "cost_out": 225817.45,
+                "self_payment_diff": -15000,
+                "actual_profit": 124182.55,
+                "mixed_menu_items": [
+                    {
+                        "menu": "Set Gelas (MiGelas)",
+                        "qty_sold": 1,
+                        "sell_price": 5000,
+                        "sell_price_effective_date": "2026-03-15",
+                        "theoretical_revenue": 5000,
+                        "recipe_cost": 2478.15,
+                        "recipe_items": [
+                            {
+                                "ingredient": "MiGelas Renceng",
+                                "ingredient_key": "migelas_renceng",
+                                "unit": "pcs",
+                                "qty_per_menu": 2,
+                                "qty_used": 2,
+                                "avg_cost": 895,
+                                "cost_out": 1790
+                            },
+                            {
+                                "ingredient": "Cup 8oz",
+                                "ingredient_key": "cup_8oz",
+                                "unit": "pcs",
+                                "qty_per_menu": 1,
+                                "qty_used": 1,
+                                "avg_cost": 375.54,
+                                "cost_out": 375.54
+                            },
+                            {
+                                "ingredient": "Sendok Kayu",
+                                "ingredient_key": "sendok_kayu",
+                                "unit": "pcs",
+                                "qty_per_menu": 1,
+                                "qty_used": 1,
+                                "avg_cost": 312.61,
+                                "cost_out": 312.61
+                            }
+                        ]
+                    },
+                    {
+                        "menu": "Set Gelas (Energen)",
+                        "qty_sold": 6,
+                        "sell_price": 5000,
+                        "sell_price_effective_date": "2026-03-15",
+                        "theoretical_revenue": 30000,
+                        "recipe_cost": 16428.9,
+                        "recipe_items": [
+                            {
+                                "ingredient": "Energen",
+                                "ingredient_key": "energen",
+                                "unit": "pcs",
+                                "qty_per_menu": 1,
+                                "qty_used": 6,
+                                "avg_cost": 2050,
+                                "cost_out": 12300
+                            },
+                            {
+                                "ingredient": "Cup 8oz",
+                                "ingredient_key": "cup_8oz",
+                                "unit": "pcs",
+                                "qty_per_menu": 1,
+                                "qty_used": 6,
+                                "avg_cost": 375.54,
+                                "cost_out": 2253.24
+                            },
+                            {
+                                "ingredient": "Sendok Kayu",
+                                "ingredient_key": "sendok_kayu",
+                                "unit": "pcs",
+                                "qty_per_menu": 1,
+                                "qty_used": 6,
+                                "avg_cost": 312.61,
+                                "cost_out": 1875.66
+                            }
+                        ]
+                    },
+                    {
+                        "menu": "Set Gelas (Good Day Cappuccino)",
+                        "qty_sold": 3,
+                        "sell_price": 5000,
+                        "sell_price_effective_date": "2026-03-15",
+                        "theoretical_revenue": 15000,
+                        "recipe_cost": 9214.44,
+                        "recipe_items": [
+                            {
+                                "ingredient": "Good Day Cappuccino",
+                                "ingredient_key": "good_day_cappuccino",
+                                "unit": "pcs",
+                                "qty_per_menu": 1,
+                                "qty_used": 3,
+                                "avg_cost": 2383.33,
+                                "cost_out": 7149.99
+                            },
+                            {
+                                "ingredient": "Cup 8oz",
+                                "ingredient_key": "cup_8oz",
+                                "unit": "pcs",
+                                "qty_per_menu": 1,
+                                "qty_used": 3,
+                                "avg_cost": 375.54,
+                                "cost_out": 1126.62
+                            },
+                            {
+                                "ingredient": "Sendok Kayu",
+                                "ingredient_key": "sendok_kayu",
+                                "unit": "pcs",
+                                "qty_per_menu": 1,
+                                "qty_used": 3,
+                                "avg_cost": 312.61,
+                                "cost_out": 937.83
+                            }
+                        ]
+                    },
+                    {
+                        "menu": "Set Gelas (Susu Milo)",
+                        "qty_sold": 3,
+                        "sell_price": 5000,
+                        "sell_price_effective_date": "2026-03-15",
+                        "theoretical_revenue": 15000,
+                        "recipe_cost": 8031.84,
+                        "recipe_items": [
+                            {
+                                "ingredient": "Susu Milo",
+                                "ingredient_key": "susu_milo",
+                                "unit": "pcs",
+                                "qty_per_menu": 1,
+                                "qty_used": 3,
+                                "avg_cost": 1989.13,
+                                "cost_out": 5967.39
+                            },
+                            {
+                                "ingredient": "Cup 8oz",
+                                "ingredient_key": "cup_8oz",
+                                "unit": "pcs",
+                                "qty_per_menu": 1,
+                                "qty_used": 3,
+                                "avg_cost": 375.54,
+                                "cost_out": 1126.62
+                            },
+                            {
+                                "ingredient": "Sendok Kayu",
+                                "ingredient_key": "sendok_kayu",
+                                "unit": "pcs",
+                                "qty_per_menu": 1,
+                                "qty_used": 3,
+                                "avg_cost": 312.61,
+                                "cost_out": 937.83
+                            }
+                        ]
+                    },
+                    {
+                        "menu": "Set Gelas (Good Day Chococinno)",
+                        "qty_sold": 1,
+                        "sell_price": 5000,
+                        "sell_price_effective_date": "2026-03-15",
+                        "theoretical_revenue": 5000,
+                        "recipe_cost": 2432.59,
+                        "recipe_items": [
+                            {
+                                "ingredient": "Good Day Chococinno",
+                                "ingredient_key": "good_day_chococinno",
+                                "unit": "pcs",
+                                "qty_per_menu": 1,
+                                "qty_used": 1,
+                                "avg_cost": 1744.44,
+                                "cost_out": 1744.44
+                            },
+                            {
+                                "ingredient": "Cup 8oz",
+                                "ingredient_key": "cup_8oz",
+                                "unit": "pcs",
+                                "qty_per_menu": 1,
+                                "qty_used": 1,
+                                "avg_cost": 375.54,
+                                "cost_out": 375.54
+                            },
+                            {
+                                "ingredient": "Sendok Kayu",
+                                "ingredient_key": "sendok_kayu",
+                                "unit": "pcs",
+                                "qty_per_menu": 1,
+                                "qty_used": 1,
+                                "avg_cost": 312.61,
+                                "cost_out": 312.61
+                            }
+                        ]
+                    }
+                ],
+                "ingredient_usage": [
+                    {
+                        "ingredient": "MiGelas Renceng",
+                        "unit": "pcs",
+                        "qty_used": 2,
+                        "cost_out": 1790,
+                        "previous_stock": 20,
+                        "remaining_stock": 18,
+                        "avg_cost": 895
+                    },
+                    {
+                        "ingredient": "Cup 8oz",
+                        "unit": "pcs",
+                        "qty_used": 14,
+                        "cost_out": 5257.56,
+                        "previous_stock": 71,
+                        "remaining_stock": 57,
+                        "avg_cost": 375.54
+                    },
+                    {
+                        "ingredient": "Sendok Kayu",
+                        "unit": "pcs",
+                        "qty_used": 14,
+                        "cost_out": 4376.54,
+                        "previous_stock": 71,
+                        "remaining_stock": 57,
+                        "avg_cost": 312.61
+                    },
+                    {
+                        "ingredient": "Energen",
+                        "unit": "pcs",
+                        "qty_used": 6,
+                        "cost_out": 12300,
+                        "previous_stock": 40,
+                        "remaining_stock": 34,
+                        "avg_cost": 2050
+                    },
+                    {
+                        "ingredient": "Good Day Cappuccino",
+                        "unit": "pcs",
+                        "qty_used": 3,
+                        "cost_out": 7149.99,
+                        "previous_stock": 15,
+                        "remaining_stock": 12,
+                        "avg_cost": 2383.33
+                    },
+                    {
+                        "ingredient": "Susu Milo",
+                        "unit": "pcs",
+                        "qty_used": 3,
+                        "cost_out": 5967.39,
+                        "previous_stock": 23,
+                        "remaining_stock": 20,
+                        "avg_cost": 1989.13
+                    },
+                    {
+                        "ingredient": "Good Day Chococinno",
+                        "unit": "pcs",
+                        "qty_used": 1,
+                        "cost_out": 1744.44,
+                        "previous_stock": 18,
+                        "remaining_stock": 17,
+                        "avg_cost": 1744.44
+                    }
+                ],
+                "note": ""
+            },
+            "created_at": "2026-04-12 08:30:58"
+        },
+        {
+            "id": "69ca4344ed6b47.32995410",
+            "type": "expense",
+            "date": "2026-03-30",
+            "description": "Biaya operasional",
+            "meta": {
+                "amount": 16000,
+                "note": "Minuman untuk restock (Natan + Lordy) Ultra Milk"
+            },
+            "created_at": "2026-03-30 09:32:52"
+        },
+        {
+            "id": "69ca3b165b0326.17336779",
+            "type": "restock",
+            "date": "2026-03-30",
+            "description": "Restock Kopi ABC",
+            "meta": {
+                "product": "Kopi ABC",
+                "qty": 24,
+                "total_cost": 79000,
+                "unit_cost": 3291.67,
+                "new_avg_cost": 3291.67,
+                "note": ""
+            },
+            "created_at": "2026-03-30 08:57:58"
+        },
+        {
+            "id": "69ca3af8dbe104.81284855",
+            "type": "restock",
+            "date": "2026-03-30",
+            "description": "Restock Teh Pucuk",
+            "meta": {
+                "product": "Teh Pucuk",
+                "qty": 24,
+                "total_cost": 72600,
+                "unit_cost": 3025,
+                "new_avg_cost": 3017.33,
+                "note": ""
+            },
+            "created_at": "2026-03-30 08:57:28"
+        },
+        {
+            "id": "69ca3ab4015417.69990163",
+            "type": "restock",
+            "date": "2026-03-30",
+            "description": "Restock Floridina",
+            "meta": {
+                "product": "Floridina",
+                "qty": 24,
+                "total_cost": 70000,
+                "unit_cost": 2916.67,
+                "new_avg_cost": 2849.11,
+                "note": ""
+            },
+            "created_at": "2026-03-30 08:56:20"
+        },
+        {
+            "id": "69ca3a69a01c82.41730922",
+            "type": "restock_ingredient",
+            "date": "2026-03-30",
+            "description": "Restock bahan racikan",
+            "meta": {
+                "items": [
+                    {
+                        "ingredient": "MiGelas Renceng",
+                        "unit": "pcs",
+                        "previous_stock": 0,
+                        "qty": 20,
+                        "total_cost": 17900,
+                        "unit_cost": 895,
+                        "new_avg_cost": 895
+                    },
+                    {
+                        "ingredient": "Good Day Chococinno",
+                        "unit": "pcs",
+                        "previous_stock": 8,
+                        "qty": 10,
+                        "total_cost": 15000,
+                        "unit_cost": 1500,
+                        "new_avg_cost": 1744.44
+                    },
+                    {
+                        "ingredient": "Susu Milo",
+                        "unit": "pcs",
+                        "previous_stock": 3,
+                        "qty": 20,
+                        "total_cost": 37800,
+                        "unit_cost": 1890,
+                        "new_avg_cost": 1989.13
+                    },
+                    {
+                        "ingredient": "Good Day Cappuccino",
+                        "unit": "pcs",
+                        "previous_stock": 5,
+                        "qty": 10,
+                        "total_cost": 21500,
+                        "unit_cost": 2150,
+                        "new_avg_cost": 2383.33
+                    },
+                    {
+                        "ingredient": "Energen",
+                        "unit": "pcs",
+                        "previous_stock": 0,
+                        "qty": 40,
+                        "total_cost": 82000,
+                        "unit_cost": 2050,
+                        "new_avg_cost": 2050
+                    }
+                ],
+                "total_cost": 174200,
+                "note": ""
+            },
+            "created_at": "2026-03-30 08:55:05"
+        },
+        {
+            "id": "69c75a827f1be7.23628603",
+            "type": "restock",
+            "date": "2026-03-28",
+            "description": "Restock Cheers",
+            "meta": {
+                "product": "Cheers",
+                "qty": 48,
+                "total_cost": 74000,
+                "unit_cost": 1541.67,
+                "new_avg_cost": 1541.67,
+                "note": ""
+            },
+            "created_at": "2026-03-28 04:35:14"
+        },
         {
             "id": "69c74c111bd947.34016187",
             "type": "update_stock",
